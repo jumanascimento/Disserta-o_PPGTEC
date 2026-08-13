@@ -1,0 +1,259 @@
+%%%*******************************************************************************
+%  Classe Latex SENAI CIMATEC, Version 0.0.0 16/04/2009
+%
+%  Define as normas e estilo das dissertações e teses do SENAI CIMATEC
+%
+%  Author : Hernane Pereira
+%%%-------------------------------------------------------------------------------
+
+%%%-------------------------------------------------------------------------------
+% Changes log
+%%%-------------------------------------------------------------------------------
+% Version 1.1.2 - 28/02/2025
+% Author : Jótelly Barros
+% - 
+%
+% Version 1.1.1 - 08/03/2005
+% - Added support for amsmath, amsthm, amsfonts and amssymb as default
+%
+% Version 1.1.0 - 22/07/2004
+% - updated university front page format
+%
+% Version 1.1.0 - 20/06/2003
+% - Initial version
+%%%-------------------------------------------------------------------------------
+
+%%%-------------------------------------------------------------------------------
+%  DOCUMENTATION WITH EXAMPLE
+%%%*******************************************************************************
+
+%%%-------------------------------------------------------------------------------
+%%% Thesis default options
+%%%-------------------------------------------------------------------------------
+%\documentclass[subook]{Classes/PPGGETEC}
+%\documentclass[sureport]{Classes/PPGGETEC}
+
+%%%-------------------------------------------------------------------------------
+%%% Thesis custom options
+%%%-------------------------------------------------------------------------------
+
+%%% Fancy page headings
+%\documentclass[fancyheadings, subook]{Classes/PPGGETEC}
+%\documentclass[fancyheadings, sureport]{Classes/PPGGETEC}
+
+%%% Fancy chapters and sections headings
+%\documentclass[fancychapter, subook]{Classes/PPGGETEC}
+%\documentclass[fancychapter, sureport]{Classes/PPGGETEC}
+
+%%% Fancy page , chapters and sections headings
+%\documentclass[fancyheadings, fancychapter, subook]{Classes/PPGGETEC}
+%\documentclass[fancyheadings, fancychapter, sureport]{Classes/PPGGETEC}
+
+\documentclass[report]{Classes/PPGGETEC}
+
+%%%-------------------------------------------------------------------------------
+%%% Thesis Commands (ONLY with fancy page headings)
+%%%-------------------------------------------------------------------------------
+
+%%% Page header line width
+%\footlinewidth{value}
+
+%%% Page footer line width
+%\headlinewidth{value}
+
+%%% Page header and footer line width
+%\headingslinewidth{value}
+
+%%% Page header and footer lines without text
+%\headingslinesonly
+
+%%% The default line width is 0.3pt.
+%%% Set the value to 0pt to remove the page header and/or footer line
+
+%%%-------------------------------------------------------------------------------
+%%% SUThesis Supported Graphic Formats
+%%%-------------------------------------------------------------------------------
+% The figures formats supported depend upon the selected output file
+% Include your figure without the extention, the SUThesis will automatically
+% search the predefined `Figures' directory tree for the right file format.
+%
+% - The pdfLaTEX (PDF) supports graphics inclusions in PDF, JPG, PNG, and
+%   MetaPost (with .mps extention) formats.
+%
+% - The Latex (DVI) supports graphics inclusions in EPS and PS formats.
+%%%-------------------------------------------------------------------------------
+
+%%%-------------------------------------------------------------------------------
+%%% Árvore de diretório PPGGETEC
+%%%-------------------------------------------------------------------------------
+%  Diretório
+%       \Classes        (requerido)
+%       \Figures        (requerido) --------------------------------->
+%       \Figures\PDF    (optional)
+%       \Figures\JPG    (optional) Figures located within these
+%       \Figures\PNG    (optional) folders are searched automatically
+%       \Figures\MPS    (optional) by the PPGGETEC class.
+%       \Figures\EPS    (optional)
+%       \Figures\PS     (optional) <--------------------------------
+%       \Tables         (requerido)
+%       \Others         (requerido)
+%       \Chapters       (requerido)
+%       \Appendices     (optional)
+%       \References     (requerido)
+%%%-------------------------------------------------------------------------------
+
+%%%-------------------------------------------------------------------------------
+%%% PDF File Summary
+%%%-------------------------------------------------------------------------------
+\ifpdf
+    \hypersetup{backref,
+                colorlinks  = true,
+                pdftitle    = Titulo da dissertacao ou tese,
+                pdfauthor   = {Hernane Pereira, hernanebbpereira@gmail.com},
+                pdfsubject  = Mestre/Doutor em MCTI,
+                pdfcreator  = Subtitulo,
+                pdfproducer = PDFLatex,
+                pdfkeywords = {Palavra-chave1, Palavra-chave2, Palavra-chave3}
+    }
+\fi
+
+%%%-------------------------------------------------------------------------------
+%%% Required packages
+%%%-------------------------------------------------------------------------------
+% - ifthen
+% - setspace
+% - amsmath
+% - amsfonts
+% - amssymb
+% - amsthm
+% - eucal
+% - graphics
+% - fancyhdr
+%%%-------------------------------------------------------------------------------
+
+%%%-------------------------------------------------------------------------------
+%%% Optional packages
+%%%-------------------------------------------------------------------------------
+\usepackage[english,brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[OT1]{fontenc}
+\usepackage{longtable}
+\usepackage{dcolumn}
+\usepackage{multirow}
+\usepackage{lscape}
+\usepackage{graphicx}
+\usepackage{rotating}
+\usepackage{float,subfigure}
+%\usepackage{cite}
+\usepackage[a4paper,left=3cm,top=3cm,right=2cm,bottom=2cm]{geometry}
+\usepackage[alf,abnt-etal-list=5]{abntex2cite}
+\usepackage{ifpdf}
+\usepackage{shadow}
+\usepackage{wrapfig}
+\usepackage[normalem]{ulem}
+\usepackage{makeidx} % cria índice remissivo
+%\usepackage{yfonts}
+\usepackage{pdfpages}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{moresize}
+\usepackage{verbatim}
+\usepackage{lipsum} 
+
+
+% Remover a palavra Capítulo do título
+%\usepackage{anonchap}
+%\simplechapter
+
+\titleformat{\chapter}[block]{\centering\bfseries\huge}{\thechapter.}{.5em}{}
+\titlespacing*{\chapter}{0pt}{*-4}{20pt}
+
+\makeindex % cria o índice remissivo
+
+% Tables and Figures Caption
+\setlength{\LTcapwidth}{\textwidth}
+
+%%%-------------------------------------------------------------------------------
+%%% Start thesis root document
+%%%-------------------------------------------------------------------------------
+\begin{document}
+
+    %%----------------------------------------------------------------------------
+    %% Define the title page
+    %%----------------------------------------------------------------------------
+    \university{Universidade SENAI CIMATEC}
+    \faculty{Programa de Pós-Graduação em Gestão e Tecnologia Industrial}
+
+    % ******************************************************************** Mestrado ********************************************************************
+    %\course{Mestrado em Gestão e Tecnologia Industrial}
+    %\typework{Disserta\c{c}\~ao de mestrado}
+    %\typework{Exame de Qualificação de Mestrado}
+
+    % ******************************************************************** Doutorado *******************************************************************
+    \course{Doutorado em Gestão e Tecnologia Industrial}
+    \typework{Tese de doutorado}
+    %\typework{Projeto de Tese de doutorado}
+    %\typework{Exame de Qualificação de doutorado}
+    
+    \thesistitle{T\'itulo do trabalho}
+    \hidevolume
+    \thesisvolume{Volume 1 of 1}
+    \thesisauthor{Nome do autor}
+    \thesisadvisor{Prof(a). Dr(a). Nome do orientador(a)}
+    %\hidecoadvisor
+    \thesiscoadvisor{Prof(a). Dr(a). Nome do co-orientador(a)}
+    \universitycoadv{IES}
+    %\thesisdegreetitle{Mestre em Gestão e Tecnologia Industrial}
+    \thesisdegreetitle{Doutor em Gestão e Tecnologia Industrial}
+    \thesismonthyear{Mês de 202X}
+    \maketitlepage
+
+    %%----------------------------------------------------------------------------
+    %% Páginas iniciais
+    %%----------------------------------------------------------------------------
+    \include{Others/FolhaRosto}
+    \include{Others/FolhaAssinaturas}
+    \include{Others/dedicatoria}
+    \include{Others/agradecimentos}
+
+    %%----------------------------------------------------------------------------
+    %% Resumo/abstract, sumário e siglas
+    %%----------------------------------------------------------------------------
+    \begin{romanpagenumbers}
+        \include{Others/resumo}
+        \include{Others/abstract}
+        \thesiscontents
+        \include{Others/abbreviation}
+        \include{Others/simbolos}
+    \end{romanpagenumbers}
+
+    %%----------------------------------------------------------------------------
+    %% Capítulos
+    %%----------------------------------------------------------------------------
+    \parskip=\baselineskip
+    \include{Chapters/ChapterOne}
+    \include{Chapters/ChapterTwo}
+    \include{Chapters/ChapterThree}
+    \include{Chapters/ChapterFour}
+    \include{Chapters/ChapterConsideracoesfinais}
+
+    %%----------------------------------------------------------------------------
+    %% Apêndices
+    %%----------------------------------------------------------------------------
+    \begin{thesisappendices}
+        %\include{Appendices/Documentos}
+    \end{thesisappendices}
+
+    %%----------------------------------------------------------------------------
+    %% Referências
+    %%----------------------------------------------------------------------------
+    \addcontentsline{toc}{chapter}{Referências}
+    \bibliographystyle{abntex2-alf}
+    \bibliography{References/referencias}
+
+    %%----------------------------------------------------------------------------
+    %% Finalização
+    %%----------------------------------------------------------------------------
+    \include{Others/ultimafolha}
+
+\end{document}
