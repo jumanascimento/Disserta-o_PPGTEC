@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/c:\\Users\\julia.ribeiro\\Documents\\Monografia_PPGTEC\\Modelo_LaTeX_PPGGETEC_SENAI_CIMATEC_V1_3\\Principal.aux": true,
+        "**/c:\\Users\\julia.ribeiro\\Documents\\Monografia_PPGTEC\\Modelo_LaTeX_PPGGETEC_SENAI_CIMATEC_V1_3\\Principal.log": true,
+        "**/c:\\Users\\julia.ribeiro\\Documents\\Monografia_PPGTEC\\Modelo_LaTeX_PPGGETEC_SENAI_CIMATEC_V1_3\\Principal.gz": true,
+        "**/c:\\Users\\julia.ribeiro\\Documents\\Monografia_PPGTEC\\Modelo_LaTeX_PPGGETEC_SENAI_CIMATEC_V1_3\\Principal.out": true
+    }
+}
