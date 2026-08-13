@@ -9,5 +9,26 @@
         "**/c:\\Users\\julia.ribeiro\\Documents\\Monografia_PPGTEC\\Modelo_LaTeX_PPGGETEC_SENAI_CIMATEC_V1_3\\Principal.log": true,
         "**/c:\\Users\\julia.ribeiro\\Documents\\Monografia_PPGTEC\\Modelo_LaTeX_PPGGETEC_SENAI_CIMATEC_V1_3\\Principal.gz": true,
         "**/c:\\Users\\julia.ribeiro\\Documents\\Monografia_PPGTEC\\Modelo_LaTeX_PPGGETEC_SENAI_CIMATEC_V1_3\\Principal.out": true
-    }
+    },
+
+    "latex-workshop.latex.tools": [
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "%DOC%"
+            ]
+        }
+    ],
+
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        }
+    ]
 }
