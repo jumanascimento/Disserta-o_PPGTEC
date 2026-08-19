@@ -1,0 +1,55 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Fei et al. 2025]{fei2025softmedicalrobots}
+\abntrefinfo{Fei et al.}{FEI et al.}{2025}
+{FEI, G. et al. Emerging soft medical robots for clinical translations from
+  diagnosis through therapy to rehabilitation.
+\emph{Materials Science and Engineering R: Reports}, Elsevier, v.~165, p.
+  100990, 2025.}
+
+\bibitem[Mota 2002]{Mota2002}
+\abntrefinfo{Mota}{MOTA}{2002}
+{MOTA, H.~A. \emph{Sei l\'a}. 2002. URL: www.mota.com.br.}
+
+\bibitem[Rodrigue e Kim 2024]{rodrigue2024soft}
+\abntrefinfo{Rodrigue e Kim}{RODRIGUE; KIM}{2024}
+{RODRIGUE, H.; KIM, J. Soft actuators in surgical robotics: a state-of-the-art
+  review.
+\emph{Intelligent Service Robotics}, v.~17, p. 3--17, 2024.}
+
+\bibitem[Sobrenome01 1998]{Autor1998}
+\abntrefinfo{Sobrenome01}{SOBRENOME01}{1998}
+{SOBRENOME01, A. T\'itulo do artigo.
+\emph{Revista cient\'ifica}, v.~2, n.~13, p. 10--23, 1998.}
+
+\bibitem[Sobrenome01 e Sobrenome04 2005]{Autor2005}
+\abntrefinfo{Sobrenome01 e Sobrenome04}{SOBRENOME01; SOBRENOME04}{2005}
+{SOBRENOME01, A.; SOBRENOME04, A. \emph{T\'itulo do livro}. Cidade blá blá
+  blá: Editora, 2005.}
+
+\bibitem[Sobrenome02, Sobrenome01 e Sobrenome03 1999]{AutorEtAl1999}
+\abntrefinfo{Sobrenome02, Sobrenome01 e Sobrenome03}{SOBRENOME02; SOBRENOME01;
+  SOBRENOME03}{1999}
+{SOBRENOME02, A.; SOBRENOME01, A.; SOBRENOME03, A. T\'itulo do trabalho
+  completo. In:  \emph{Congresso Internacional}. Cidade, Estado, Pa\'is:
+  Editora, 1999. v.~1, p. 1--13.}
+
+\bibitem[Sobrenome03 2002]{Autor2002}
+\abntrefinfo{Sobrenome03}{SOBRENOME03}{2002}
+{SOBRENOME03, A.
+\emph{T\'itulo da tese de doutorado.}
+Tese (Doutorado em outra coisa) --- Institui\c{c}\~ao, Cidade, 2002.}
+
+\bibitem[Sobrenome05 2009]{Autor2009}
+\abntrefinfo{Sobrenome05}{SOBRENOME05}{2009}
+{SOBRENOME05, A.
+\emph{T\'itulo da disserta\c{c}\~ao de mestrado.}
+Disserta\c{c}\~{a}o (Mestrado em alguma coisa) --- Institui\c{c}\~ao, Cidade,
+  2009.}
+
+\end{thebibliography}
