@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.13)  19 AUG 2026 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.13)  25 AUG 2026 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -970,35 +970,31 @@ l.228         \include{Others/simbolos}
  (Chapters/ChapterOne.tex
 Cap\'{\i }tulo 1.
 
-Overfull \hbox (18.94307pt too wide) in paragraph at lines 16--30
-\OT1/ptm/m/n/12 flex[]^^Pveis e de-form[]aveis ca-pa-zes de re-pro-du-zir ca-rac-ter[]^^Psticas en-con-tra-das em or-ga-nis-mos biol[]ogicos,
- []
-
-File: Figures/Logo_SENAI.png Graphic file (type png)
-<use Figures/Logo_SENAI.png>
-Package pdftex.def Info: Figures/Logo_SENAI.png  used on input line 43.
-(pdftex.def)             Requested size: 192.71169pt x 84.8132pt.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.58 
-      [1
+l.48 A
+      ssim, o desenvolvimento da area de \textit{Soft Robotics} é acompanha... [1
 
 
 
 
+]
+Overfull \hbox (5.68332pt too wide) in paragraph at lines 59--64
+\OT1/ptm/m/n/12 ba-se-a-dos em de-grais de li-ber-dade li-mi-ta-dos, os rob[]os flex[]^^Pveis apre-sen-tam deforma[][]oes cont[]^^Pnuas
+ []
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.58 
-     ])
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
+l.128 
+       [2])
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
 l.235     \include{Chapters/ChapterOne}
-                                        [2]
+                                        [3]
 \openout2 = `Chapters/ChapterTwo.aux'.
 
  (Chapters/ChapterTwo.tex
@@ -1016,11 +1012,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 65.
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.71 \begin{CitacaoLiteral}
-                            [3
+                            [4
 
 
 
@@ -1031,16 +1027,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) ha
                                                   \__shipout_drop_firstpage_...
 l.71 \begin{CitacaoLiteral}
                            ]
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.154 \end{longtable}
-                      [4]
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.156 \newpage
-               [5]
+l.154 \end{longtable}
+                      [5] [6]
 File: Figures/Logo_SENAI.png Graphic file (type png)
 <use Figures/Logo_SENAI.png>
 Package pdftex.def Info: Figures/Logo_SENAI.png  used on input line 161.
@@ -1061,7 +1052,7 @@ File: Figures/Logo_SENAI.png Graphic file (type png)
 <use Figures/Logo_SENAI.png>
 Package pdftex.def Info: Figures/Logo_SENAI.png  used on input line 204.
 (pdftex.def)             Requested size: 192.71169pt x 84.8132pt.
-) [6
+) [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1071,7 +1062,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) h
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.236     \include{Chapters/ChapterTwo}
-                                       ] [7
+                                       ] [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1089,7 +1080,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 13.
 
-) [8
+) [9
 
 
 
@@ -1099,7 +1090,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (Chapters/ChapterFour.tex
 Cap\'{\i }tulo 4.
-) [9
+) [10
 
 
 
@@ -1109,7 +1100,7 @@ Cap\'{\i }tulo 4.
 
  (Chapters/ChapterConsideracoesfinais.tex
 Cap\'{\i }tulo 5.
-) [10
+) [11
 
 
 
@@ -1118,14 +1109,14 @@ Cap\'{\i }tulo 5.
 \tf@brf=\write8
 \openout8 = `Principal.brf'.
 
-) [11
+) [12
 
 
 
 ]
 \openout2 = `Others/ultimafolha.aux'.
 
- (Others/ultimafolha.tex) [12
+ (Others/ultimafolha.tex) [13
 
 ] (Principal.aux (Others/FolhaRosto.aux) (Others/FolhaAssinaturas.aux) (Others/dedicatoria.aux) (Others/agradecimentos.aux) (Others/resumo.aux) (Others/abstract.aux) (Others/abbreviation.aux) (Others/simbolos.aux) (Chapters/ChapterOne.aux) (Chapters/ChapterTwo.aux) (Chapters/ChapterThree.aux) (Chapters/ChapterFour.aux) (Chapters/ChapterConsideracoesfinais.aux) (Others/ultimafolha.aux))
  ***********
@@ -1135,21 +1126,21 @@ L3 programming layer <2026-07-20>
 Package rerunfilecheck Info: File `Principal.out' has not changed.
 (rerunfilecheck)             Checksum: 09D82F25B9051DE85A2D61BAD5F4BE35;5249.
 Package rerunfilecheck Info: File `Principal.brf' has not changed.
-(rerunfilecheck)             Checksum: 6675F116D4E7CF94E1257F9385940F81;578.
+(rerunfilecheck)             Checksum: 71096E8E205618A4B353E6F9EB6B99A2;824.
  )
 (\end occurred when \iftrue on line 226 was incomplete) 
 Here is how much of TeX's memory you used:
- 16605 strings out of 467501
- 282167 string characters out of 5404662
- 807030 words of memory out of 5000000
- 45356 multiletter control sequences out of 15000+600000
+ 16628 strings out of 467501
+ 282463 string characters out of 5404662
+ 808525 words of memory out of 5000000
+ 45376 multiletter control sequences out of 15000+600000
  657487 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,10n,107p,638b,685s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/julia.ribeiro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/julia.ribeiro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/julia.ribeiro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/julia.ribeiro/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julia.ribeiro/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julia.ribeiro/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Principal.pdf (25 pages, 209248 bytes).
+Output written on Principal.pdf (26 pages, 217080 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
+ 384 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
  262 words of extra memory for PDF output out of 10000 (max. 10000000)
 

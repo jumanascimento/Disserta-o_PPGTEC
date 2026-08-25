@@ -5,12 +5,24 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[Cruz, Oliveira e Correia 2024]{Cruz2024}
+\abntrefinfo{Cruz, Oliveira e Correia}{CRUZ; OLIVEIRA; CORREIA}{2024}
+{CRUZ, E. M. G. N.~V.; OLIVEIRA, S.; CORREIA, A. Robotics applications in the
+  hospital domain: A literature review.
+\emph{Applied System Innovation}, MDPI, v.~7, n.~6, p.~125, 2024.}
+
 \bibitem[Fei et al. 2025]{fei2025softmedicalrobots}
 \abntrefinfo{Fei et al.}{FEI et al.}{2025}
 {FEI, G. et al. Emerging soft medical robots for clinical translations from
   diagnosis through therapy to rehabilitation.
 \emph{Materials Science and Engineering R: Reports}, Elsevier, v.~165, p.
   100990, 2025.}
+
+\bibitem[Lin, Gamboa-Gonzalez e Wehner 2021]{Lin2021}
+\abntrefinfo{Lin, Gamboa-Gonzalez e Wehner}{LIN; GAMBOA-GONZALEZ; WEHNER}{2021}
+{LIN, K.-Y.; GAMBOA-GONZALEZ, A.; WEHNER, M. Soft robotic sensing,
+  proprioception via cable and microfluidic transmission.
+\emph{Electronics}, MDPI, v.~10, n.~24, p.~3166, 2021.}
 
 \bibitem[Mota 2002]{Mota2002}
 \abntrefinfo{Mota}{MOTA}{2002}
@@ -51,5 +63,11 @@ Tese (Doutorado em outra coisa) --- Institui\c{c}\~ao, Cidade, 2002.}
 \emph{T\'itulo da disserta\c{c}\~ao de mestrado.}
 Disserta\c{c}\~{a}o (Mestrado em alguma coisa) --- Institui\c{c}\~ao, Cidade,
   2009.}
+
+\bibitem[Zhou et al. 2024]{Zhou2024}
+\abntrefinfo{Zhou et al.}{ZHOU et al.}{2024}
+{ZHOU, S.; LI, Y.; WANG, Q.; LYU, Z. Integrated actuation and sensing: Toward
+  intelligent soft robots.
+\emph{Cyborg and Bionic Systems}, v.~5, p.~0105, 2024.}
 
 \end{thebibliography}

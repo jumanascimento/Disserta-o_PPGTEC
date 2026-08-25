@@ -1,34 +1,90 @@
 \chapter{Introdu\c{c}\~ao}
 \label{chapter:introducao}
 
+Em \citeonline{Cruz2024} é apontada a crescente demanda por serviços da área de saúde, associado ao envelhecimento populacional e à
+necessidade de procedimentos cada vez mais precisos, impulsionando a adoção de novas tecnologias no ambiente hospitalar. Nesse contexto, 
+sistemas robóticos vêm sendo incorporados progressivamente às atividades médicas, contribuindo para o aumento da eficiência operacional, 
+da segurança dos procedimentos e da qualidade do atendimento aos pacientes.
+
+Atualmente a robótica está inserida em diversos aspectos do ambiente hospitalar, incluindo cirurgia assistida, reabilitação física, 
+telepresença, monitoramento remoto de pacientes, transporte de materiais hospitalares, desinfecção de ambientes e treinamento 
+médico. Fica evidente então o potencial da robótica em auxiliar os profissionais da saúde, assistindo em procedimentos complexos
+e de alta precisão, reduzindo erros operacionais e aumentando a eficiência dos serviços hospitalares. %caso seja necessario add referencia nesse paragrafo as informações tbm vieram do Cruz
+
+Entre as diversas aplicações da robótica no setor médico a que mais se destaca é a robotica cirurgica, a mesma se destaca como uma
+das áreas com maior desenvolvimento tecnológico. Os sistemas roboticos permitem maior precisão dos movimentos, melhoria no campo de
+visão operatório e ampliar as possibilidades de realização de procedimentos minimamente invasivos, contribuindo para melhores 
+resultados clínicos e redução do tempo de recuperação dos pacientes.
+
+Apesar da grande aplicabilidades dos sistema robóticos convencionais, muitos desses sistemas são baseados em plataformas rígidas
+o que dificulta a adptação dos mesmos ao ambiente anatômico, aumentando assim o risco de interação com tecidos biológicos delicados
+Dessa forma, novas abordagnes passaram a ser desenvolvidas, visando maior segurança e flexibilidade nos dispositivos médicos robóticos.
+
+Nesse cenário surge a Soft Robotics, uma área da robótica inspirada em sistemas biológicos que utiliza materiais flexíveis e deformáveis 
+para permitir uma interação mais segura com o corpo humano. Segundo \citeonline{rodrigue2024soft}, os robôs cirúrgicos flexíveis apresentam 
+elevado potencial para aplicações médicas por serem capazes de navegar em estruturas anatômicas complexas e realizar procedimentos 
+minimamente invasivos com maior adaptabilidade e menor risco de danos aos tecidos.
+
 \citeonline{fei2025softmedicalrobots} define robôs flexíveis medicinais com sendo um sistema primariamente composto por matériais
 com elasticidade comparavél a de tecidos biológicos, desenvolvidos para diagnóstico,tratamento, assistência e reabilitação.
-As primeiras tecnologias robóticas voltadas a cirurgia eram desenvolvidas utilizando estruturas rigidas, visando a execução de
-movimentos rápidos e precisos. Porém, a rigidez desses sistemas aumenta o risco de perfurações e danos aos recidos biológicos
-durante procedimentos, gerando assim a demanda por estuturas constituidas por materiais deformáveis e de estruturas continuas.
+Nesse contexto, a Soft Robotics emerge como uma abordagem promissora ao empregar materiais flexíveis e deformáveis capazes 
+de reproduzir características encontradas em organismos biol\'ogicos, proporcionando maior adaptabilidade e segurança 
+durante procedimentos médicos \cite{rodrigue2024soft}.
+%As primeiras tecnologias robóticas voltadas a cirurgia eram desenvolvidas utilizando estruturas rigidas, visando a execução de
+%movimentos rápidos e precisos. Porém, a rigidez desses sistemas aumenta o risco de perfurações e danos aos recidos biológicos
+%durante procedimentos, gerando assim a demanda por estuturas constituidas por materiais deformáveis e de estruturas continuas.
 
-Dessa maneira o interesse científico pela área de \textit{Soft Robotics} voltada a medicida apresenta crescimento significativo 
+Dessa maneira o interesse científico pela área de \textit{Soft Robotics} voltada a medicina apresenta crescimento significativo 
 nas ultimas duas decadas. Segundo \citeonline{fei2025softmedicalrobots} o numero de publicação relacionadas a robótica flexivel 
 voltada a medicina aumentou de aproximadamente 20 trabalhos anuais em 2005 para cerca de 600 trabalhos em 2024, o que deixa evidente
 a rapida expasão da área.
 
+%O avanço da robótica médica tem possibilitado a realização de procedimentos cada vez mais precisos e menos invasivos.
+%Entretanto, a utilização de mecanismos rígidos em sistemas cirúrgicos convencionais ainda pode limitar a interação 
+%segura com estruturas anatômicas delicadas. Nesse contexto, a Soft Robotics emerge como uma abordagem promissora ao 
+%empregar materiais flexíveis e deformáveis capazes de reproduzir características encontradas em organismos biol\'ogicos, 
+%proporcionando maior adaptabilidade e segurança durante procedimentos médicos \cite{rodrigue2024soft}.
 
-O avanço da robótica médica tem possibilitado a realização de procedimentos cada vez mais precisos e menos invasivos.
-Entretanto, a utilização de mecanismos rígidos em sistemas cirúrgicos convencionais ainda pode limitar a interação 
-segura com estruturas anatômicas delicadas. Nesse contexto, a Soft Robotics emerge como uma abordagem promissora ao 
-empregar materiais flexíveis e deformáveis capazes de reproduzir características encontradas em organismos biol\'ogicos, 
-proporcionando maior adaptabilidade e segurança durante procedimentos médicos \cite{rodrigue2024soft}.
 Assim, o desenvolvimento da area de \textit{Soft Robotics} é acompanhando pelo desenvolvimento de divesas estratégias de atuação,
-cada ua apresentando suas proprias caracteristicas de força, flexibilidade, controle e aplicabilidade clinica.
+cada uma apresentando suas proprias caracteristicas de força, flexibilidade, controle e aplicabilidade clinica.
 Entre as principais tecnologias encontram-se sistemas Pneumaticos, Magneticos, acionados por tendoes, mecanismos de tubos 
 concentricos, materiais inteligentes e sistemas Híbridos \cite{rodrigue2024soft}.
+
 Os diversos sistemas atendem as diversas possíbilidades de aplicação desses manipuladores flexíveis, que não se limitam ao 
-ambito cirurgico, os mesmos podem ser aplicados em colonocoias, endoscopias, cateters inteligentes, 
+ambito cirurgico, os mesmos podem ser aplicados em colonoscopias, endoscopias, cateters inteligentes, 
 entrega direcionada de medicamentos, diagnostico médico e assistencia cardiaca, além de serem aplicados em cirurgias minimamente
 invasivas (CMI). Dessa forma, é vissível que a área de aplicações para \textit{Soft Robots} cirurgicos é muito vasta e apresenta
 continuo crescimento \cite{rodrigue2024soft}.
 
-blablabla
+Dentro do cenário dos \textit{Soft Robots}, apesar de existirem diversas aplicações e enumeras vantagens existem também diafios 
+significativos ligados ao monitoramento dos estados mecânicos durante a operação. Diferentimente dos robôs convencionais, cujos 
+movimentos são rigídos e baseados em degrais de liberdade limitados, os robôs flexíveis apresentam
+deformações contínuas e grande adptabilidade ao ambiente, tornando a determinação de sua posição, orientação e interação com superficies
+mais comlexa e disafiadora. Dessa forma, o desenvolvimento de técnicas de sensoriamento se tornou um dos principais desafios da área \cite{Lin2021}.
+
+\citeonline{Lin2021} destacam que um robô mole pode demandar de uma quantidade significativa maior de sensoreamento em comparação a um 
+robô rígido convencional. Sistemas flexíveis necessitam de monitoramento contínuo de parâmetros como deformação, flexão, torção alongamento,
+e pressão distribuída ao longo da estrutura.
+
+Dentro desse contexto um robô mole necessita para realizar tarefas com precisão de um sistema capaz de fornecer informações sobre a sua 
+própria configuração mecânica. Essa capacidade, conhecida como propriocepção, permite monitorar parâmetros como deformação, curvatura,
+alongamento e posição, fornecendo dados essenciais para estratégias de controle em malha fechada. Para além da propriocepção, os robôs moles
+necessitam de um bom sistema de sensoriamento para obter informações sobre o ambiente ao seu redor, o sensoriamento tátil permite identificar
+forças de contato, pressão e caracteristicas dos objetos manipulados, sendo especialmente relevantes em aplicações médicas que involvem interações
+diretas com tecidos biológicos sensíveis \cite{Zhou2024}.
+
+Dessa maneira, diversas tecnologias de sensoriamento vem sido investigadas para aplicações em \textit{Soft Robots}, incluindo sensores piezoresistivos, 
+piezocapacitivos, piezoelétricos, ópticos e magnético. cada abordagem apresenta vantagnes e limitações relacionadas a flexibilidade, sensibilidade, 
+custo de fabricação, integração aos atuadores deformavéis e etc \cite{Zhou2024}.
+
+%começar a falar aqui sobre a manufatura adtiva e ir desenhando a problematica
+
+
+
+
+
+
+
 %Sugere-se apresentar um texto que enuncie em que contexto a
 %pesquisa foi, est\'a sendo ou ser\'a realizada (i.e. qual o modelo
 %conceitual do centro de pesquisa, qual as interrela\c{c}\~oes
@@ -37,24 +93,28 @@ blablabla
 
 %Para inserir uma figura no texto, use Figura \ref{figura:nome1}.
 
-\begin{figure}[ht]
-\begin{center}
-\caption{Logotipo da Universidade SENAI CIMATEC.} \label{figura:nome1}
-\includegraphics[scale=.15]{Logo_SENAI}\\
-Fonte: Elaborado pelo autor
-\end{center}
-\end{figure}
+%% MODELO DE FIGURA.
+%\begin{figure}[ht]
+%\begin{center}
+%\caption{Logotipo da Universidade SENAI CIMATEC.} \label{figura:nome1}
+%\includegraphics[scale=.15]{Logo_SENAI}\\
+%Fonte: Elaborado pelo autor
+%\end{center}
+%\end{figure}
 
 
 \section{Defini\c{c}\~ao do problema}
 \label{section:definicaoproblema}
 
-Nesta se\c{c}\~ao o problema \'e claramente identificado. Deve-se
-apresentar os argumentos que levaram \`a identifica\c{c}\~ao do
-problema que ser\'a trabalho. Alguns autores podem ser citados com
-o prop\'osito de explicitar a preocupa\c{c}\~ao da comunidade
-cient\'ifica ou de parte dela, em tentar resolver o problema
-dentro dos \^ambitos estabelecidos.
+
+
+
+%Nesta se\c{c}\~ao o problema \'e claramente identificado. Deve-se
+%apresentar os argumentos que levaram \`a identifica\c{c}\~ao do
+%problema que ser\'a trabalho. Alguns autores podem ser citados com
+%o prop\'osito de explicitar a preocupa\c{c}\~ao da comunidade
+%cient\'ifica ou de parte dela, em tentar resolver o problema
+%dentro dos \^ambitos estabelecidos.
 
 
 
