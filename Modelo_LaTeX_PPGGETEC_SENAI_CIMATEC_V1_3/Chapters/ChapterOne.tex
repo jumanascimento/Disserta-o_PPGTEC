@@ -107,6 +107,34 @@ custo de fabricação, integração aos atuadores deformavéis e etc \cite{Zhou2
 \label{section:definicaoproblema}
 
 
+Conforme discutido anteriormente, sistemas robóticos baseados em \textit{Soft Robotics} apresentam elevada capacidade de deformação,
+adptação geométrica e interação segura com ambientes e estruturas delicadas, caractrísticas que os tornam promissores para aplicações
+médicas e cirúrgicas. Entretanto, a elevada flexibilidade desses sistemas também impõe desafios significativos relacionados ao monitoramento 
+de sua configuração mecânica e à determinação precisa de sua interação com o ambiente.
+Diferentemente dos robôs rígidos convencionais, cujos movimentos podem ser descritos a partir de um conjunto limitado de juntas e sensores, 
+os manipuladores flexíveis possuem deformações contínuas distribuídas ao longo de toda a estrutura, exigindo soluções de sensoriamento capazes 
+de fornecer informações em tempo real sobre posição, curvatura, deformação e forças de contato \cite{Lin2021,Zhou2024}.
+
+Nesse contexto, entram os sensores flexíveis, que se tornam elementos fundamentais para o desenvolvimento de didtemas de propriocepção e controle
+em malha fechada. Diferindo assim dos sensores rigidos convencionais que apresentam limitações relacionadas à baixa conformabilidade mecânica,
+aumento de volume, restrições de integração em estrutuas deformáveis e redução da capacidade de adequação aos movimentos complexos característicos
+dos robôs moles \cite{WOS:001403456400001}.
+
+%Dentro do contexto estabelecido na sessão anterior fica evidente o desafio da propriocepção de um manipulador \textit{Soft Robots},
+%esse tipo de manipulador mole apresenta infinitos graus de liberdade podendo ser flexionado, torcido e precionado em qualquer direção,
+%essa liberdade de movimentação gera a necessídade de um número elevado de sensores. A utilização de sensores rigidos traz limitações
+%como baixa flexibilidade, maior volume e capacidade de conformação muito baixa do sensor, o que tonar dificil a identificação ou 
+%deteção de informações externas complexas e limita significativamente o laque de aplicações \cite{WOS:001403456400001}.
+
+%Assim, surgem os sensores flexiveis para pressão/força, nomalmente feitos de materiais polimericos, nanomateriais e materiais de 
+%fibra de carbono, de forma geral sensores flexiveis de pressão/força tendem a ser projetados para medir a deformação de uma direção
+%específica, esse tipo de projeto sofre com a interferência do movimento nas demais direções, comprometendo assim a precisção do
+%sensor e restringir suas aplicações.
+
+
+
+
+
 
 
 %Nesta se\c{c}\~ao o problema \'e claramente identificado. Deve-se
@@ -121,10 +149,34 @@ custo de fabricação, integração aos atuadores deformavéis e etc \cite{Zhou2
 \section{Objetivo}
 \label{section:objetivo}
 
-Nesta se\c{c}\~ao os objetivos principal e espec\'ificos (tamb\'em
-pode-se se utilizar a palavra meta) da monografia de
-gradua\c{c}\~ao ou especializa\c{c}\~ao, disserta\c{c}\~ao de
-mestrado ou tese de doutorado s\~ao apresentados.
+O ojetivo geral do presente trabalho visa o desenvolvimento de um sistema de monitoramento de
+posição/movimentação para um manipulador flexível voltado a robótica cirurgica
+
+\subsection{Objetivos Específicos}
+
+\begin{enumerate}
+  \item Desenvolver uma rota de fabricação por direct write de sensores piezocapacitivos flexíveis em filme condutivo de prata sobre TPU, 
+  caracterizando seu desempenho eletromecânico e validando sua aplicabilidade em um protótipo de soft robotics.​
+  \item Selecionar e caracterizar grades de TPU (dureza Shore A, espessura, módulo) 
+  fadiga prematura.
+  \item Otimizar o tratamento de superfície do TPU (UV-ozônio — variando tempo/intensidade) para aumento de adesão da tinta de prata, com 
+  metodologia análoga à que você já vem aplicando em poliimida (ângulo de contato, Owens-Wendt, FTIR-ATR).
+  \item Otimizar parâmetros de impressão no Voltera Nova (velocidade, altura do bico, número de passes, viscosidade da tinta) para filmes 
+  de prata com espessura e continuidade controladas sobre substrato elastomérico.
+  \item Caracterizar morfologicamente os filmes (perfilometria, microscopia óptica/SEM, possivelmente AFM) antes e após ciclos de deformação.
+  \item Caracterizar eletromecanicamente os sensores: gauge factor (adcionar formula de Gf corretamente por 
+  (drift) e estabilidade sob ciclagem (centenas a milhares de ciclos)).
+  \item Avaliar estratégias de encapsulamento (camada protetora) para mitigar oxidação da prata e delaminação sob deformação cíclica.
+  \item Integrar e validar o sensor em um protótipo demonstrativo de soft robotics (ex.: Dedo de garra pneumática ou atuador 
+  flexionável instrumentado), avaliando a correlação entre sinal elétrico e ângulo/posição.
+
+\end{enumerate}
+
+
+%Nesta se\c{c}\~ao os objetivos principal e espec\'ificos (tamb\'em
+%pode-se se utilizar a palavra meta) da monografia de
+%gradua\c{c}\~ao ou especializa\c{c}\~ao, disserta\c{c}\~ao de
+%mestrado ou tese de doutorado s\~ao apresentados.
 
 
 
