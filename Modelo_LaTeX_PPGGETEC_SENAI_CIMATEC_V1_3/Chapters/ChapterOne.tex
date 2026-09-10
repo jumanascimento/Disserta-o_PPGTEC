@@ -1,70 +1,74 @@
 \chapter{Introdu\c{c}\~ao}
 \label{chapter:introducao}
 
-Em \citeonline{Cruz2024} é apontada a crescente demanda por serviços da área de saúde, associado ao envelhecimento populacional e à
-necessidade de procedimentos cada vez mais precisos, impulsionando a adoção de novas tecnologias no ambiente hospitalar. Nesse contexto, 
-sistemas robóticos vêm sendo incorporados progressivamente às atividades médicas, contribuindo para o aumento da eficiência operacional, 
-da segurança dos procedimentos e da qualidade do atendimento aos pacientes.
 
-Atualmente a robótica está inserida em diversos aspectos do ambiente hospitalar, incluindo cirurgia assistida, reabilitação física, 
-telepresença, monitoramento remoto de pacientes, transporte de materiais hospitalares, desinfecção de ambientes e treinamento 
-médico. Fica evidente então o potencial da robótica em auxiliar os profissionais da saúde, assistindo em procedimentos complexos
-e de alta precisão, reduzindo erros operacionais e aumentando a eficiência dos serviços hospitalares. %caso seja necessario add referencia nesse paragrafo as informações tbm vieram do Cruz
+\textit{Soft Robotcs} é uma área da robótica que utiliza materiais macios, deformáveis e estruturas com elevada complacência mecânica
+para construir robôs capazes de interagir de forma segura e adptável com o ambiente. Diferentemente dos robôs tradicionais, compostos 
+principalmente por juntas e elos rígidos, os robôs macios podem sofrer grandes deformações, adaptar sua forma aos objetos e aproveitar
+propriedades mecânicas do próprio corpo para executar tarefas complexas \cite{Laschi2016SoftRobotics}.
 
-Entre as diversas aplicações da robótica no setor médico a que mais se destaca é a robotica cirurgica, a mesma se destaca como uma
-das áreas com maior desenvolvimento tecnológico. Os sistemas roboticos permitem maior precisão dos movimentos, melhoria no campo de
-visão operatório e ampliar as possibilidades de realização de procedimentos minimamente invasivos, contribuindo para melhores 
-resultados clínicos e redução do tempo de recuperação dos pacientes.
+%Adcionar as explicações de A,B,C,D
+\begin{figure}[ht]
+\begin{center}
+\caption{Modelos de complacência mecânica e deformação estrutural em Soft Robots.} \label{figura:modos_flexao}
+\includegraphics[scale=.5]{modos_flexao.png}\\
+Fonte: Elaborado pelo autor
+\end{center}
+\end{figure}
 
-Apesar da grande aplicabilidades dos sistema robóticos convencionais, muitos desses sistemas são baseados em plataformas rígidas
-o que dificulta a adptação dos mesmos ao ambiente anatômico, aumentando assim o risco de interação com tecidos biológicos delicados
-Dessa forma, novas abordagnes passaram a ser desenvolvidas, visando maior segurança e flexibilidade nos dispositivos médicos robóticos.
+Embora o conceito de \textit{Soft Robotics} tenha ganhado notoriedade somente na década de 2000, suas origens remontam a 1980 e 1990, 
+quando surgiram os primeiros manipuladores inflaveis e microatuadores fléxiveis. Contudo, eses sistemas ainda não eram classificados 
+formalmente como robôs macios, mas já exploravam princípios de deformabilidade e comformabilidade que mais tarde se tornariam
+fundamentais para a área \cite{Laschi2016SoftRobotics}. Dessa forma, impulsionada pela biomimética e pelo estudo de organismos de corpo mole,
+como animais invertebrados, esses organismos mostraram que estruturas deformáveis eram capazes de realizar movimentos complexos e se
+adaptar eficientemente ao ambiente, inspirando novas arquiteturas robóticas baseadas em materiais flexíveis e complacentes. Um dos primeiros 
+marcos da área foi o desenvolvimento do \textit{OctArm}, manipulador robótico inspirado nos tentáculos dos polvos, capaz de realizar 
+grandes deformações sem a utilização de juntas rígidas \cite{Grissom2006OctArm}. Assim, entre 2009 e 2012, a Soft Robotics consolidou-se como 
+campo de pesquisa independente, com avanços significativos em atuação, sensoriamento, modelagem e controle de estruturas contínuas. Nesse período, 
+também surgiram novas tecnologias de fabricação e atuadores baseados em ligas com memória de forma, músculos artificiais pneumáticos e polímeros 
+eletroativos \cite{Laschi2016SoftRobotics}. Em 2011, a introdução da tecnologia \textit{Pneu-Net}, baseada em câmaras pneumáticas moldadas em elastômeros, 
+representou um importante avanço para a área, permitindo a construção de robôs quase totalmente macios. Nos anos seguintes, foram desenvolvidas soluções 
+para rigidez variável, preensão adaptativa, locomoção inspirada em organismos vivos, robôs capazes de crescer, mudar de forma e realizar autorreparo. 
+Como resultado, a Soft Robotics tornou-se uma das áreas mais promissoras da robótica moderna, reunindo conhecimentos de engenharia, ciência dos materiais, 
+biologia e medicina para o desenvolvimento de sistemas cada vez mais adaptáveis e bioinspirados \cite{Laschi2016SoftRobotics}.
 
-Nesse cenário surge a Soft Robotics, uma área da robótica inspirada em sistemas biológicos que utiliza materiais flexíveis e deformáveis 
-para permitir uma interação mais segura com o corpo humano. Segundo \citeonline{rodrigue2024soft}, os robôs cirúrgicos flexíveis apresentam 
-elevado potencial para aplicações médicas por serem capazes de navegar em estruturas anatômicas complexas e realizar procedimentos 
-minimamente invasivos com maior adaptabilidade e menor risco de danos aos tecidos.
+%Adcionar as explicações de A,B,C
+\begin{figure}[ht]
+\begin{center}
+\caption{Modelo biomimetico de Soft Robotics baseado no comportamento de um tentaculo de Polvo.} \label{figura:biomimetica_soft}
+\includegraphics[scale=.7]{biomimetica_soft.png}\\
+Fonte: Elaborado pelo autor
+\end{center}
+\end{figure}
 
-\citeonline{fei2025softmedicalrobots} define robôs flexíveis medicinais com sendo um sistema primariamente composto por matériais
-com elasticidade comparavél a de tecidos biológicos, desenvolvidos para diagnóstico,tratamento, assistência e reabilitação.
-Nesse contexto, a Soft Robotics emerge como uma abordagem promissora ao empregar materiais flexíveis e deformáveis capazes 
-de reproduzir características encontradas em organismos biol\'ogicos, proporcionando maior adaptabilidade e segurança 
-durante procedimentos médicos \cite{rodrigue2024soft}.
-%As primeiras tecnologias robóticas voltadas a cirurgia eram desenvolvidas utilizando estruturas rigidas, visando a execução de
-%movimentos rápidos e precisos. Porém, a rigidez desses sistemas aumenta o risco de perfurações e danos aos recidos biológicos
-%durante procedimentos, gerando assim a demanda por estuturas constituidas por materiais deformáveis e de estruturas continuas.
+Sendo assim, a area de robótica mole traz vantages quando comparada com a robótica rígida convencional, destacando-se à flexibilidade e adaptabilidade, 
+robôs flexíveis podem se deformar para operar por espaços apertados, manipular objetos irregulares ou frágeis e adptar-se a ambientes não estruturados
+superando robôs rígidos em tarefas que exigem adaptabilidade geométrica. Outra vantagem é a segurança em interação robô-humano, a natureza flexível dos 
+robôs moles torna-os inerentemente mais seguros para a interação direta com humanos, reduzindo o risco de lesões e viabilizando aplicações como reabilitação 
+médica, dispositivos vestíveis e robótica colaborativa. Ainda no âmbito das vantagens distaca-se a navegabilidade em ambientes complexos, sua capacidade 
+de se deformar e se adaptar permite que robôs flexíveis operem em ambientes inacessíveis a robôs rígidos, como zonas de desastre, tubulações e o corpo 
+humano \cite{Wang2026,Shen2026}.
 
-Dessa maneira o interesse científico pela área de \textit{Soft Robotics} voltada a medicina apresenta crescimento significativo 
-nas ultimas duas decadas. Segundo \citeonline{fei2025softmedicalrobots} o numero de publicação relacionadas a robótica flexivel 
-voltada a medicina aumentou de aproximadamente 20 trabalhos anuais em 2005 para cerca de 600 trabalhos em 2024, o que deixa evidente
-a rapida expasão da área.
+Contudo, assim como toda tecnologia emergente, os \textit{Soft Robots} apresentam algumas disvantagens, como baixa velocidade, precisão e força,
+robôs flexíveis geralmente apresentam desempenho inferior em tarefas que exigem alta velocidade, precisão ou força, o que limita sua utilização na 
+automação industrial e na manufatura de alta precisão. Alem de enfrentar complexidade para controle, o comportamento não linear e histerético de materiais 
+moles complica a modelagem e o controle em tempo real, exigindo técnicas avançadas de aprendizado de máquina e otimização. A difuculdade de integramento sensorial
+é outra desvantagem que os \textit{Soft Robots} tem em relação aos robôs rigidos, incorporar sensores em corpos macios e deformáveis ​​é um desafio técnico que, 
+frequentemente, exige abordagens inovadoras para manter o desempenho e a confiabilidade \cite{Wang2026,Chen2026,Lee20173}.
 
-%O avanço da robótica médica tem possibilitado a realização de procedimentos cada vez mais precisos e menos invasivos.
-%Entretanto, a utilização de mecanismos rígidos em sistemas cirúrgicos convencionais ainda pode limitar a interação 
-%segura com estruturas anatômicas delicadas. Nesse contexto, a Soft Robotics emerge como uma abordagem promissora ao 
-%empregar materiais flexíveis e deformáveis capazes de reproduzir características encontradas em organismos biol\'ogicos, 
-%proporcionando maior adaptabilidade e segurança durante procedimentos médicos \cite{rodrigue2024soft}.
-
-Assim, o desenvolvimento da area de \textit{Soft Robotics} é acompanhando pelo desenvolvimento de divesas estratégias de atuação,
-cada uma apresentando suas proprias caracteristicas de força, flexibilidade, controle e aplicabilidade clinica.
-Entre as principais tecnologias encontram-se sistemas Pneumaticos, Magneticos, acionados por tendoes, mecanismos de tubos 
-concentricos, materiais inteligentes e sistemas Híbridos \cite{rodrigue2024soft}.
-
-Os diversos sistemas atendem as diversas possíbilidades de aplicação desses manipuladores flexíveis, que não se limitam ao 
-ambito cirurgico, os mesmos podem ser aplicados em colonoscopias, endoscopias, cateters inteligentes, 
-entrega direcionada de medicamentos, diagnostico médico e assistencia cardiaca, além de serem aplicados em cirurgias minimamente
-invasivas (CMI). Dessa forma, é vissível que a área de aplicações para \textit{Soft Robots} cirurgicos é muito vasta e apresenta
-continuo crescimento \cite{rodrigue2024soft}.
+Devido a maleabilidade e infinitos graus de liberdade os \textit{Soft Robots} tem sido aplicados em diversas áreas, como saúde, ambientes industriais, exploração e resgate.
+Robôs flexíveis são empregados para realizar preensões seguras e adaptáveis ​​na manufatura, manuseando objetos delicados ou irregulares com risco mínimo de danos, atuadores 
+pneumáticos e estruturas biônicas possibilitam uma manipulação versátil na automação industrial, superando as limitações de garras rígidas \cite{Liu2023,Xavier202259442}.
+Robôs de corpo flexível são utilizados em operações de busca e salvamento e na exploração de ambientes de risco, aproveitando sua adaptabilidade e resiliência, Estratégias 
+de locomoção multimodal (por exemplo, rastejar, nadar) permitem a navegação por terrenos diversos \cite{Liu2023,Li2024}. A saúde se monstra como uma das grandes áreas de 
+aplicabilidade dos robôs flexíveis, os robôs cirúrgicos flexíveis apresentam elevado potencial para aplicações médicas por serem capazes de navegar em 
+estruturas anatômicas complexas e realizar procedimentos minimamente invasivos com maior adaptabilidade e menor risco de danos aos tecidos,  \cite{rodrigue2024soft}
 
 Dentro do cenário dos \textit{Soft Robots}, apesar de existirem diversas aplicações e enumeras vantagens existem também diafios 
 significativos ligados ao monitoramento dos estados mecânicos durante a operação. Diferentimente dos robôs convencionais, cujos 
-movimentos são rigídos e baseados em degrais de liberdade limitados, os robôs flexíveis apresentam
+movimentos são rigídos e baseados em graus de liberdade limitados, os robôs flexíveis apresentam
 deformações contínuas e grande adptabilidade ao ambiente, tornando a determinação de sua posição, orientação e interação com superficies
-mais comlexa e disafiadora. Dessa forma, o desenvolvimento de técnicas de sensoriamento se tornou um dos principais desafios da área \cite{Lin2021}.
-
-\citeonline{Lin2021} destacam que um robô mole pode demandar de uma quantidade significativa maior de sensoreamento em comparação a um 
-robô rígido convencional. Sistemas flexíveis necessitam de monitoramento contínuo de parâmetros como deformação, flexão, torção alongamento,
-e pressão distribuída ao longo da estrutura.
+mais complexa e disafiadora. Dessa forma, o desenvolvimento de técnicas de sensoriamento se tornou um dos principais desafios da área \cite{Lin2021}.
 
 Dentro desse contexto um robô mole necessita para realizar tarefas com precisão de um sistema capaz de fornecer informações sobre a sua 
 própria configuração mecânica. Essa capacidade, conhecida como propriocepção, permite monitorar parâmetros como deformação, curvatura,
@@ -73,11 +77,57 @@ necessitam de um bom sistema de sensoriamento para obter informações sobre o a
 forças de contato, pressão e caracteristicas dos objetos manipulados, sendo especialmente relevantes em aplicações médicas que involvem interações
 diretas com tecidos biológicos sensíveis \cite{Zhou2024}.
 
+Devido a complexidade de moviemento e infinitos graus de liberdade um robô mole demanda de sensoriamento elevado, onde um robô tradicional rigído
+requereria por volta de 10 sensores para obter um senso de propriocepção um robô mole pode facilmente requerer mais de 100 sensores para obter a mesma
+propriocepção \cite{Lin2021}. Sistemas flexíveis necessitam de monitoramento contínuo de parâmetros como deformação, flexão, torção alongamento,
+e pressão distribuída ao longo da estrutura para obter um senso de estado e movimentação.
+
 Dessa maneira, diversas tecnologias de sensoriamento vem sido investigadas para aplicações em \textit{Soft Robots}, incluindo sensores piezoresistivos, 
-piezocapacitivos, piezoelétricos, ópticos e magnético. cada abordagem apresenta vantagnes e limitações relacionadas a flexibilidade, sensibilidade, 
+piezocapacitivos, piezoelétricos, ópticos e magnéticos. Cada abordagem apresenta vantagnes e limitações relacionadas a flexibilidade, sensibilidade, 
 custo de fabricação, integração aos atuadores deformavéis e etc \cite{Zhou2024}.
 
-%começar a falar aqui sobre a manufatura adtiva e ir desenhando a problematica
+%Em \citeonline{Cruz2024} é apontada a crescente demanda por serviços da área de saúde, associado ao envelhecimento populacional e à
+%necessidade de procedimentos cada vez mais precisos, impulsionando a adoção de novas tecnologias no ambiente hospitalar. Nesse contexto, 
+%sistemas robóticos vêm sendo incorporados progressivamente às atividades médicas, contribuindo para o aumento da eficiência operacional, 
+%da segurança dos procedimentos e da qualidade do atendimento aos pacientes.
+
+%Atualmente a robótica está inserida em diversos aspectos do ambiente hospitalar, incluindo cirurgia assistida, reabilitação física, 
+%telepresença, monitoramento remoto de pacientes, transporte de materiais hospitalares, desinfecção de ambientes e treinamento 
+%médico. Fica evidente então o potencial da robótica em auxiliar os profissionais da saúde, assistindo em procedimentos complexos
+%e de alta precisão, reduzindo erros operacionais e aumentando a eficiência dos serviços hospitalares. %caso seja necessario add referencia nesse paragrafo as informações tbm vieram do Cruz
+
+%Entre as diversas aplicações da robótica no setor médico a que mais se destaca é a robotica cirurgica, a mesma se destaca como uma
+%das áreas com maior desenvolvimento tecnológico. Os sistemas roboticos permitem maior precisão dos movimentos, melhoria no campo de
+%visão operatório e ampliar as possibilidades de realização de procedimentos minimamente invasivos, contribuindo para melhores 
+%resultados clínicos e redução do tempo de recuperação dos pacientes.
+
+%Apesar da grande aplicabilidades dos sistema robóticos convencionais, muitos desses sistemas são baseados em plataformas rígidas
+%o que dificulta a adptação dos mesmos ao ambiente anatômico, aumentando assim o risco de interação com tecidos biológicos delicados
+%Dessa forma, novas abordagnes passaram a ser desenvolvidas, visando maior segurança e flexibilidade nos dispositivos médicos robóticos.
+
+
+
+%As primeiras tecnologias robóticas voltadas a cirurgia eram desenvolvidas utilizando estruturas rigidas, visando a execução de
+%movimentos rápidos e precisos. Porém, a rigidez desses sistemas aumenta o risco de perfurações e danos aos recidos biológicos
+%durante procedimentos, gerando assim a demanda por estuturas constituidas por materiais deformáveis e de estruturas continuas.
+
+
+
+%O avanço da robótica médica tem possibilitado a realização de procedimentos cada vez mais precisos e menos invasivos.
+%Entretanto, a utilização de mecanismos rígidos em sistemas cirúrgicos convencionais ainda pode limitar a interação 
+%segura com estruturas anatômicas delicadas. Nesse contexto, a Soft Robotics emerge como uma abordagem promissora ao 
+%empregar materiais flexíveis e deformáveis capazes de reproduzir características encontradas em organismos biol\'ogicos, 
+%proporcionando maior adaptabilidade e segurança durante procedimentos médicos \cite{rodrigue2024soft}.
+
+%Assim, o desenvolvimento da area de \textit{Soft Robotics} é acompanhando pelo desenvolvimento de divesas estratégias de atuação,
+%cada uma apresentando suas proprias caracteristicas de força, flexibilidade, controle e aplicabilidade clinica.
+%Entre as principais tecnologias encontram-se sistemas Pneumaticos, Magneticos, acionados por tendoes, mecanismos de tubos 
+%concentricos, materiais inteligentes e sistemas Híbridos \cite{rodrigue2024soft}.
+
+
+%Esse paragrafo abaixo deve ficar na area de aplicações
+
+
 
 
 
@@ -108,17 +158,33 @@ custo de fabricação, integração aos atuadores deformavéis e etc \cite{Zhou2
 
 
 Conforme discutido anteriormente, sistemas robóticos baseados em \textit{Soft Robotics} apresentam elevada capacidade de deformação,
-adptação geométrica e interação segura com ambientes e estruturas delicadas, caractrísticas que os tornam promissores para aplicações
-médicas e cirúrgicas. Entretanto, a elevada flexibilidade desses sistemas também impõe desafios significativos relacionados ao monitoramento 
-de sua configuração mecânica e à determinação precisa de sua interação com o ambiente.
+adptação geométrica e interação segura com ambientes e estruturas delicadas. Entretanto, a elevada flexibilidade desses sistemas também
+ impõe desafios significativos relacionados ao monitoramento de sua configuração mecânica e à determinação precisa de sua interação com o ambiente.
 Diferentemente dos robôs rígidos convencionais, cujos movimentos podem ser descritos a partir de um conjunto limitado de juntas e sensores, 
 os manipuladores flexíveis possuem deformações contínuas distribuídas ao longo de toda a estrutura, exigindo soluções de sensoriamento capazes 
 de fornecer informações em tempo real sobre posição, curvatura, deformação e forças de contato \cite{Lin2021,Zhou2024}.
 
-Nesse contexto, entram os sensores flexíveis, que se tornam elementos fundamentais para o desenvolvimento de didtemas de propriocepção e controle
+Nesse contexto, entram os sensores flexíveis, que se tornam elementos fundamentais para o desenvolvimento de sistemas de propriocepção e controle
 em malha fechada. Diferindo assim dos sensores rigidos convencionais que apresentam limitações relacionadas à baixa conformabilidade mecânica,
 aumento de volume, restrições de integração em estrutuas deformáveis e redução da capacidade de adequação aos movimentos complexos característicos
 dos robôs moles \cite{WOS:001403456400001}.
+
+Diversas abordagens de sensoriamento flexível têm sido propostas na literatura utilizando materiais poliméricos, hidrogéis condutores, nanomateriais
+à base de carbono e compósitos metálicos. Apesar dos avanços observados, muitos dispositivos ainda apresentam limitações relacionadas
+à histerese, derivada temporal, fadiga mecânica, direcionalidade de medição e degradação de desempenho após sucessivos ciclos de deformação \cite{Cheng2022,Koivikko2018,Ali2018}.
+Além disso, a integração desses sensores em substratos elastoméricos continua sendo um desafio tecnológico relevante devido aos problemas de adesão, 
+estabilidade elétrica e durabilidade mecânica dos filmes condutores submetidos a deformações repetidas.
+
+Embora tecnicas de eletrônica impressa e deposição \textit{Direct Write} tenham demonstrado potencial para a fabricação de sensores flexíveis de baixo custo,
+ainda existem lacunas relacionadas à definição de processos de fabricação que permitem a obtenção de sensores piezocapacitivos com elevada sensibilidade,
+baixa histerese, boa aderência ao substrato elastomérico e estabilidade eletromecânica de longo prazo. Dessa forma, surge a necessidade de investigar novas
+rotas de fabricação baseda em deposição \textit{Thick Filme} capazes de viabilizar sensores eletromecânicos adequados às demandas de sistemas robóticos cirurgicos
+flexíveis.
+
+Assim, o problema de pesquisa desta dissertação consiste em determinar se a tecnologia de deposição Thick Film aplicada à fabricação de sensores 
+piezoresistivos em filmes metálicos sobre substratos elastoméricos é capaz de produzir dispositivos com desempenho eletromecânico, durabilidade e 
+flexibilidade compatíveis com aplicações em sistemas robóticos baseados em Soft Robotics.
+
 
 %Dentro do contexto estabelecido na sessão anterior fica evidente o desafio da propriocepção de um manipulador \textit{Soft Robots},
 %esse tipo de manipulador mole apresenta infinitos graus de liberdade podendo ser flexionado, torcido e precionado em qualquer direção,
@@ -157,8 +223,6 @@ posição/movimentação para um manipulador flexível voltado a robótica cirur
 \begin{enumerate}
   \item Desenvolver uma rota de fabricação por direct write de sensores piezocapacitivos flexíveis em filme condutivo de prata sobre TPU, 
   caracterizando seu desempenho eletromecânico e validando sua aplicabilidade em um protótipo de soft robotics.​
-  \item Selecionar e caracterizar grades de TPU (dureza Shore A, espessura, módulo) 
-  fadiga prematura.
   \item Otimizar o tratamento de superfície do TPU (UV-ozônio — variando tempo/intensidade) para aumento de adesão da tinta de prata, com 
   metodologia análoga à que você já vem aplicando em poliimida (ângulo de contato, Owens-Wendt, FTIR-ATR).
   \item Otimizar parâmetros de impressão no Voltera Nova (velocidade, altura do bico, número de passes, viscosidade da tinta) para filmes 

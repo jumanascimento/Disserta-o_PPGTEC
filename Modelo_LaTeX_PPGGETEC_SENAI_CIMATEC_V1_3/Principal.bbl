@@ -5,24 +5,71 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem[Cruz, Oliveira e Correia 2024]{Cruz2024}
-\abntrefinfo{Cruz, Oliveira e Correia}{CRUZ; OLIVEIRA; CORREIA}{2024}
-{CRUZ, E. M. G. N.~V.; OLIVEIRA, S.; CORREIA, A. Robotics applications in the
-  hospital domain: A literature review.
-\emph{Applied System Innovation}, MDPI, v.~7, n.~6, p.~125, 2024.}
+\bibitem[Ali et al. 2018]{Ali2018}
+\abntrefinfo{Ali et al.}{ALI et al.}{2018}
+{ALI, M. M. et al. Printed strain sensor based on silver nanowire/silver flake
+  composite on flexible and stretchable tpu substrate.
+\emph{Sensors and Actuators A: Physical}, v.~285, p. 159--170, 2018.}
 
-\bibitem[Fei et al. 2025]{fei2025softmedicalrobots}
-\abntrefinfo{Fei et al.}{FEI et al.}{2025}
-{FEI, G. et al. Emerging soft medical robots for clinical translations from
-  diagnosis through therapy to rehabilitation.
-\emph{Materials Science and Engineering R: Reports}, Elsevier, v.~165, p.
-  100990, 2025.}
+\bibitem[Chen, Chirarattananon e Jayaram 2026]{Chen2026}
+\abntrefinfo{Chen, Chirarattananon e Jayaram}{CHEN; CHIRARATTANANON;
+  JAYARAM}{2026}
+{CHEN, Y.; CHIRARATTANANON, P.; JAYARAM, K. A call for a performance-driven
+  approach for soft robotics research.
+\emph{npj Robotics}, v.~4, n.~1, 2026.
+Cited by: 0; All Open Access, Gold Open Access.}
+
+\bibitem[Cheng, Zhang e Dong 2022]{Cheng2022}
+\abntrefinfo{Cheng, Zhang e Dong}{CHENG; ZHANG; DONG}{2022}
+{CHENG, X.; ZHANG, F.; DONG, W. Soft conductive hydrogel-based electronic skin
+  for robot finger grasping manipulation.
+\emph{Polymers}, v.~14, n.~19, p.~3930, 2022.}
+
+\bibitem[Grissom et al. 2006]{Grissom2006OctArm}
+\abntrefinfo{Grissom et al.}{GRISSOM et al.}{2006}
+{GRISSOM, M.~D. et al. Design and experimental testing of the octarm soft robot
+  manipulator. In:  \emph{Unmanned Ground Vehicle Technology VIII}. Orlando,
+  Florida, USA: SPIE, 2006.  (Proceedings of SPIE, v.~6230).}
+
+\bibitem[Koivikko et al. 2018]{Koivikko2018}
+\abntrefinfo{Koivikko et al.}{KOIVIKKO et al.}{2018}
+{KOIVIKKO, A.; RAEI, E.~S.; MOSALLAEI, M.; MANTYSALO, M.; SARIOLA, V.
+  Screen-printed curvature sensors for soft robots.
+\emph{IEEE Sensors Journal}, v.~18, n.~1, p. 223--230, 2018.}
+
+\bibitem[Laschi, Mazzolai e Cianchetti 2016]{Laschi2016SoftRobotics}
+\abntrefinfo{Laschi, Mazzolai e Cianchetti}{LASCHI; MAZZOLAI; CIANCHETTI}{2016}
+{LASCHI, C.; MAZZOLAI, B.; CIANCHETTI, M. Soft robotics: Technologies and
+  systems pushing the boundaries of robot abilities.
+\emph{Science Robotics}, American Association for the Advancement of Science
+  (AAAS), v.~1, n.~1, p. eaah3690, 2016.}
+
+\bibitem[Lee et al. 2017]{Lee20173}
+\abntrefinfo{Lee et al.}{LEE et al.}{2017}
+{LEE, C. et al. Soft robot review.
+\emph{International Journal of Control, Automation and Systems}, v.~15, n.~1,
+  p. 3 – 15, 2017.
+Cited by: 627.}
+
+\bibitem[Li et al. 2024]{Li2024}
+\abntrefinfo{Li et al.}{LI et al.}{2024}
+{LI, Y. et al. Recent progress in soft robots: principles, designs, and
+  applications.
+\emph{Smart Materials and Structures}, v.~33, n.~11, 2024.
+Cited by: 10.}
 
 \bibitem[Lin, Gamboa-Gonzalez e Wehner 2021]{Lin2021}
 \abntrefinfo{Lin, Gamboa-Gonzalez e Wehner}{LIN; GAMBOA-GONZALEZ; WEHNER}{2021}
 {LIN, K.-Y.; GAMBOA-GONZALEZ, A.; WEHNER, M. Soft robotic sensing,
   proprioception via cable and microfluidic transmission.
 \emph{Electronics}, MDPI, v.~10, n.~24, p.~3166, 2021.}
+
+\bibitem[Liu et al. 2023]{Liu2023}
+\abntrefinfo{Liu et al.}{LIU et al.}{2023}
+{LIU, K.; CHEN, W.; YANG, W.; JIAO, Z.; YU, Y. Review of the research progress
+  in soft robots.
+\emph{Applied Sciences (Switzerland)}, v.~13, n.~1, 2023.
+Cited by: 47; All Open Access, Gold Open Access.}
 
 \bibitem[Mota 2002]{Mota2002}
 \abntrefinfo{Mota}{MOTA}{2002}
@@ -41,6 +88,13 @@ ISSN 1385-8947.}
 {RODRIGUE, H.; KIM, J. Soft actuators in surgical robotics: a state-of-the-art
   review.
 \emph{Intelligent Service Robotics}, v.~17, p. 3--17, 2024.}
+
+\bibitem[Shen et al. 2026]{Shen2026}
+\abntrefinfo{Shen et al.}{SHEN et al.}{2026}
+{SHEN, F. et al. Recent advances in dielectric elastomer actuators:
+  manufacturing, control and perspectives.
+\emph{Sensors and Actuators A: Physical}, v.~410, n.~P2, 2026.
+Cited by: 0.}
 
 \bibitem[Sobrenome01 1998]{Autor1998}
 \abntrefinfo{Sobrenome01}{SOBRENOME01}{1998}
@@ -71,6 +125,20 @@ Tese (Doutorado em outra coisa) --- Institui\c{c}\~ao, Cidade, 2002.}
 \emph{T\'itulo da disserta\c{c}\~ao de mestrado.}
 Disserta\c{c}\~{a}o (Mestrado em alguma coisa) --- Institui\c{c}\~ao, Cidade,
   2009.}
+
+\bibitem[Wang et al. 2026]{Wang2026}
+\abntrefinfo{Wang et al.}{WANG et al.}{2026}
+{WANG, Y. et al. Soft robotics: Enabling technologies, applications, and future
+  perspectives.
+\emph{Machines}, v.~14, n.~7, 2026.
+Cited by: 0; All Open Access, Gold Open Access.}
+
+\bibitem[Xavier et al. 2022]{Xavier202259442}
+\abntrefinfo{Xavier et al.}{XAVIER et al.}{2022}
+{XAVIER, M.~S. et al. Soft pneumatic actuators: A review of design,
+  fabrication, modeling, sensing, control and applications.
+\emph{IEEE Access}, v.~10, p. 59442 – 59485, 2022.
+Cited by: 401; All Open Access, Gold Open Access, Green Open Access.}
 
 \bibitem[Zhou et al. 2024]{Zhou2024}
 \abntrefinfo{Zhou et al.}{ZHOU et al.}{2024}
