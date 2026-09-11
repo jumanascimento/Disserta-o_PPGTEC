@@ -49,10 +49,10 @@ médica, dispositivos vestíveis e robótica colaborativa. Ainda no âmbito das 
 de se deformar e se adaptar permite que robôs flexíveis operem em ambientes inacessíveis a robôs rígidos, como zonas de desastre, tubulações e o corpo 
 humano \cite{Wang2026,Shen2026}.
 
-Contudo, assim como toda tecnologia emergente, os \textit{Soft Robots} apresentam algumas disvantagens, como baixa velocidade, precisão e força,
+Contudo, assim como toda tecnologia emergente, os \textit{Soft Robots} apresentam algumas desvantagens, como baixa velocidade, precisão e força,
 robôs flexíveis geralmente apresentam desempenho inferior em tarefas que exigem alta velocidade, precisão ou força, o que limita sua utilização na 
 automação industrial e na manufatura de alta precisão. Alem de enfrentar complexidade para controle, o comportamento não linear e histerético de materiais 
-moles complica a modelagem e o controle em tempo real, exigindo técnicas avançadas de aprendizado de máquina e otimização. A difuculdade de integramento sensorial
+moles complica a modelagem e o controle em tempo real, exigindo técnicas avançadas de aprendizado de máquina e otimização. A difuculdade de integração sensorial
 é outra desvantagem que os \textit{Soft Robots} tem em relação aos robôs rigidos, incorporar sensores em corpos macios e deformáveis ​​é um desafio técnico que, 
 frequentemente, exige abordagens inovadoras para manter o desempenho e a confiabilidade \cite{Wang2026,Chen2026,Lee20173}.
 
@@ -64,23 +64,12 @@ de locomoção multimodal (por exemplo, rastejar, nadar) permitem a navegação 
 aplicabilidade dos robôs flexíveis, os robôs cirúrgicos flexíveis apresentam elevado potencial para aplicações médicas por serem capazes de navegar em 
 estruturas anatômicas complexas e realizar procedimentos minimamente invasivos com maior adaptabilidade e menor risco de danos aos tecidos,  \cite{rodrigue2024soft}
 
-Dentro do cenário dos \textit{Soft Robots}, apesar de existirem diversas aplicações e enumeras vantagens existem também diafios 
-significativos ligados ao monitoramento dos estados mecânicos durante a operação. Diferentimente dos robôs convencionais, cujos 
-movimentos são rigídos e baseados em graus de liberdade limitados, os robôs flexíveis apresentam
-deformações contínuas e grande adptabilidade ao ambiente, tornando a determinação de sua posição, orientação e interação com superficies
-mais complexa e disafiadora. Dessa forma, o desenvolvimento de técnicas de sensoriamento se tornou um dos principais desafios da área \cite{Lin2021}.
+%Dentro do cenário dos \textit{Soft Robots}, apesar de existirem diversas aplicações e enumeras vantagens existem também diafios 
+%significativos ligados ao monitoramento dos estados mecânicos durante a operação. Diferentimente dos robôs convencionais, cujos 
+%movimentos são rigídos e baseados em graus de liberdade limitados, os robôs flexíveis apresentam
+%deformações contínuas e grande adptabilidade ao ambiente, tornando a determinação de sua posição, orientação e interação com superficies
+%mais complexa e disafiadora. Dessa forma, o desenvolvimento de técnicas de sensoriamento se tornou um dos principais desafios da área \cite{Lin2021}.
 
-Dentro desse contexto um robô mole necessita para realizar tarefas com precisão de um sistema capaz de fornecer informações sobre a sua 
-própria configuração mecânica. Essa capacidade, conhecida como propriocepção, permite monitorar parâmetros como deformação, curvatura,
-alongamento e posição, fornecendo dados essenciais para estratégias de controle em malha fechada. Para além da propriocepção, os robôs moles
-necessitam de um bom sistema de sensoriamento para obter informações sobre o ambiente ao seu redor, o sensoriamento tátil permite identificar
-forças de contato, pressão e caracteristicas dos objetos manipulados, sendo especialmente relevantes em aplicações médicas que involvem interações
-diretas com tecidos biológicos sensíveis \cite{Zhou2024}.
-
-Devido a complexidade de moviemento e infinitos graus de liberdade um robô mole demanda de sensoriamento elevado, onde um robô tradicional rigído
-requereria por volta de 10 sensores para obter um senso de propriocepção um robô mole pode facilmente requerer mais de 100 sensores para obter a mesma
-propriocepção \cite{Lin2021}. Sistemas flexíveis necessitam de monitoramento contínuo de parâmetros como deformação, flexão, torção alongamento,
-e pressão distribuída ao longo da estrutura para obter um senso de estado e movimentação.
 
 Dessa maneira, diversas tecnologias de sensoriamento vem sido investigadas para aplicações em \textit{Soft Robots}, incluindo sensores piezoresistivos, 
 piezocapacitivos, piezoelétricos, ópticos e magnéticos. Cada abordagem apresenta vantagnes e limitações relacionadas a flexibilidade, sensibilidade, 
@@ -159,10 +148,30 @@ custo de fabricação, integração aos atuadores deformavéis e etc \cite{Zhou2
 
 Conforme discutido anteriormente, sistemas robóticos baseados em \textit{Soft Robotics} apresentam elevada capacidade de deformação,
 adptação geométrica e interação segura com ambientes e estruturas delicadas. Entretanto, a elevada flexibilidade desses sistemas também
- impõe desafios significativos relacionados ao monitoramento de sua configuração mecânica e à determinação precisa de sua interação com o ambiente.
+impõe desafios significativos relacionados ao monitoramento de sua configuração mecânica e à determinação precisa de sua interação com o ambiente.
 Diferentemente dos robôs rígidos convencionais, cujos movimentos podem ser descritos a partir de um conjunto limitado de juntas e sensores, 
 os manipuladores flexíveis possuem deformações contínuas distribuídas ao longo de toda a estrutura, exigindo soluções de sensoriamento capazes 
 de fornecer informações em tempo real sobre posição, curvatura, deformação e forças de contato \cite{Lin2021,Zhou2024}.
+
+\begin{figure}[ht]
+\begin{center}
+\caption{Comparação entre Robô Rígido e \textit{Soft Robots}.} \label{figura:nome1}
+\includegraphics[scale=.3]{Comparacao_manipuladores.png}\\
+Fonte: Elaborado pelo autor
+\end{center}
+\end{figure}
+
+Dentro desse contexto um robô mole necessita para realizar tarefas com precisão de um sistema capaz de fornecer informações sobre a sua 
+própria configuração mecânica. Essa capacidade, conhecida como propriocepção, permite monitorar parâmetros como deformação, curvatura,
+alongamento e posição, fornecendo dados essenciais para estratégias de controle em malha fechada. Para além da propriocepção, os robôs moles
+necessitam de um bom sistema de sensoriamento para obter informações sobre o ambiente ao seu redor, o sensoriamento tátil permite identificar
+forças de contato, pressão e caracteristicas dos objetos manipulados, sendo especialmente relevantes em aplicações médicas que involvem interações
+diretas com tecidos biológicos sensíveis \cite{Zhou2024}.
+
+Devido a complexidade de moviemento e infinitos graus de liberdade um robô mole demanda de sensoriamento elevado, onde um robô tradicional rigído
+requereria por volta de 10 sensores para obter um senso de propriocepção um robô mole pode facilmente requerer mais de 100 sensores para obter a mesma
+propriocepção \cite{Lin2021}. Sistemas flexíveis necessitam de monitoramento contínuo de parâmetros como deformação, flexão, torção, alongamento,
+e pressão distribuída ao longo da estrutura para obter um senso de estado e movimentação.
 
 Nesse contexto, entram os sensores flexíveis, que se tornam elementos fundamentais para o desenvolvimento de sistemas de propriocepção e controle
 em malha fechada. Diferindo assim dos sensores rigidos convencionais que apresentam limitações relacionadas à baixa conformabilidade mecânica,
@@ -174,6 +183,12 @@ Diversas abordagens de sensoriamento flexível têm sido propostas na literatura
 à histerese, derivada temporal, fadiga mecânica, direcionalidade de medição e degradação de desempenho após sucessivos ciclos de deformação \cite{Cheng2022,Koivikko2018,Ali2018}.
 Além disso, a integração desses sensores em substratos elastoméricos continua sendo um desafio tecnológico relevante devido aos problemas de adesão, 
 estabilidade elétrica e durabilidade mecânica dos filmes condutores submetidos a deformações repetidas.
+Nesse contexto, sensores piezocapacitivos anisotrópicos têm recebido crescente atenção por sua capacidade de distinguir e desacoplar estímulos mecânicos 
+multidimensionais, como pressão normal, cisalhamento, flexão, torção e deformações de tração, permitindo uma caracterização mais precisa das interações 
+mecânicas em sistemas complexos. Esses dispositivos exploram alterações direcionais na capacitância por meio de arquiteturas anisotrópicas, estruturas 
+microgeométricas diferenciadas ou arranjos sensoriais capazes de produzir respostas elétricas distintas para diferentes direções de carregamento. Como 
+resultado, apresentam elevado potencial para aplicações em pele eletrônica robótica, interfaces homem-máquina, dispositivos vestíveis e monitoramento 
+biomecânico, onde a identificação da direção e magnitude das forças aplicadas é fundamental para o correto funcionamento do sistema \cite{WOS:001403456400001}.
 
 Embora tecnicas de eletrônica impressa e deposição \textit{Direct Write} tenham demonstrado potencial para a fabricação de sensores flexíveis de baixo custo,
 ainda existem lacunas relacionadas à definição de processos de fabricação que permitem a obtenção de sensores piezocapacitivos com elevada sensibilidade,
@@ -216,7 +231,7 @@ flexibilidade compatíveis com aplicações em sistemas robóticos baseados em S
 \label{section:objetivo}
 
 O ojetivo geral do presente trabalho visa o desenvolvimento de um sistema de monitoramento de
-posição/movimentação para um manipulador flexível voltado a robótica cirurgica
+posição/movimentação para um manipulador \textit{Soft Robots}
 
 \subsection{Objetivos Específicos}
 

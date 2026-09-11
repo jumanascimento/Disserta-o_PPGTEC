@@ -1,7 +1,7 @@
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
 \contentsline {chapter}{\numberline {1}Introdu\c {c}\~ao}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Defini\c {c}\~ao do problema}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Defini\c {c}\~ao do problema}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Objetivo}{5}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Objetivos Específicos}{5}{subsection.1.2.1}%
 \contentsline {chapter}{\numberline {2}Revis\~ao da Literatura}{6}{chapter.2}%
