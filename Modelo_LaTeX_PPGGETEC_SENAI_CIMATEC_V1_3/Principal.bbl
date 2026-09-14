@@ -11,18 +11,17 @@
   composite on flexible and stretchable tpu substrate.
 \emph{Sensors and Actuators A: Physical}, v.~285, p. 159--170, 2018.}
 
-\bibitem[Chen, Chirarattananon e Jayaram 2026]{Chen2026}
-\abntrefinfo{Chen, Chirarattananon e Jayaram}{CHEN; CHIRARATTANANON;
-  JAYARAM}{2026}
-{CHEN, Y.; CHIRARATTANANON, P.; JAYARAM, K. A call for a performance-driven
-  approach for soft robotics research.
+\bibitem[Chen et al. 2026]{Chen2026}
+\abntrefinfo{Chen et al.}{CHEN et al.}{2026}
+{CHEN, Y. et al. A call for a performance-driven approach for soft robotics
+  research.
 \emph{npj Robotics}, v.~4, n.~1, 2026.
 Cited by: 0; All Open Access, Gold Open Access.}
 
-\bibitem[Cheng, Zhang e Dong 2022]{Cheng2022}
-\abntrefinfo{Cheng, Zhang e Dong}{CHENG; ZHANG; DONG}{2022}
-{CHENG, X.; ZHANG, F.; DONG, W. Soft conductive hydrogel-based electronic skin
-  for robot finger grasping manipulation.
+\bibitem[Cheng et al. 2022]{Cheng2022}
+\abntrefinfo{Cheng et al.}{CHENG et al.}{2022}
+{CHENG, X. et al. Soft conductive hydrogel-based electronic skin for robot
+  finger grasping manipulation.
 \emph{Polymers}, v.~14, n.~19, p.~3930, 2022.}
 
 \bibitem[Grissom et al. 2006]{Grissom2006OctArm}
@@ -33,14 +32,13 @@ Cited by: 0; All Open Access, Gold Open Access.}
 
 \bibitem[Koivikko et al. 2018]{Koivikko2018}
 \abntrefinfo{Koivikko et al.}{KOIVIKKO et al.}{2018}
-{KOIVIKKO, A.; RAEI, E.~S.; MOSALLAEI, M.; MANTYSALO, M.; SARIOLA, V.
-  Screen-printed curvature sensors for soft robots.
+{KOIVIKKO, A. et al. Screen-printed curvature sensors for soft robots.
 \emph{IEEE Sensors Journal}, v.~18, n.~1, p. 223--230, 2018.}
 
-\bibitem[Laschi, Mazzolai e Cianchetti 2016]{Laschi2016SoftRobotics}
-\abntrefinfo{Laschi, Mazzolai e Cianchetti}{LASCHI; MAZZOLAI; CIANCHETTI}{2016}
-{LASCHI, C.; MAZZOLAI, B.; CIANCHETTI, M. Soft robotics: Technologies and
-  systems pushing the boundaries of robot abilities.
+\bibitem[Laschi et al. 2016]{Laschi2016SoftRobotics}
+\abntrefinfo{Laschi et al.}{LASCHI et al.}{2016}
+{LASCHI, C. et al. Soft robotics: Technologies and systems pushing the
+  boundaries of robot abilities.
 \emph{Science Robotics}, American Association for the Advancement of Science
   (AAAS), v.~1, n.~1, p. eaah3690, 2016.}
 
@@ -58,16 +56,15 @@ Cited by: 627.}
 \emph{Smart Materials and Structures}, v.~33, n.~11, 2024.
 Cited by: 10.}
 
-\bibitem[Lin, Gamboa-Gonzalez e Wehner 2021]{Lin2021}
-\abntrefinfo{Lin, Gamboa-Gonzalez e Wehner}{LIN; GAMBOA-GONZALEZ; WEHNER}{2021}
-{LIN, K.-Y.; GAMBOA-GONZALEZ, A.; WEHNER, M. Soft robotic sensing,
-  proprioception via cable and microfluidic transmission.
+\bibitem[Lin et al. 2021]{Lin2021}
+\abntrefinfo{Lin et al.}{LIN et al.}{2021}
+{LIN, K.-Y. et al. Soft robotic sensing, proprioception via cable and
+  microfluidic transmission.
 \emph{Electronics}, MDPI, v.~10, n.~24, p.~3166, 2021.}
 
 \bibitem[Liu et al. 2023]{Liu2023}
 \abntrefinfo{Liu et al.}{LIU et al.}{2023}
-{LIU, K.; CHEN, W.; YANG, W.; JIAO, Z.; YU, Y. Review of the research progress
-  in soft robots.
+{LIU, K. et al. Review of the research progress in soft robots.
 \emph{Applied Sciences (Switzerland)}, v.~13, n.~1, 2023.
 Cited by: 47; All Open Access, Gold Open Access.}
 
@@ -77,9 +74,8 @@ Cited by: 47; All Open Access, Gold Open Access.}
 
 \bibitem[Qiu et al. 2025]{WOS:001403456400001}
 \abntrefinfo{Qiu et al.}{QIU et al.}{2025}
-{QIU, J.; LIU, S.; GUO, Y.; YANG, L.; JIANG, K. Anisotropic flexible
-  pressure/strain sensors: Recent advances, fabrication techniques, and future
-  prospects.
+{QIU, J. et al. Anisotropic flexible pressure/strain sensors: Recent advances,
+  fabrication techniques, and future prospects.
 \emph{CHEMICAL ENGINEERING JOURNAL}, v.~504, JAN 15 2025.
 ISSN 1385-8947.}
 
@@ -106,12 +102,10 @@ Cited by: 0.}
 {SOBRENOME01, A.; SOBRENOME04, A. \emph{T\'itulo do livro}. Cidade blá blá
   blá: Editora, 2005.}
 
-\bibitem[Sobrenome02, Sobrenome01 e Sobrenome03 1999]{AutorEtAl1999}
-\abntrefinfo{Sobrenome02, Sobrenome01 e Sobrenome03}{SOBRENOME02; SOBRENOME01;
-  SOBRENOME03}{1999}
-{SOBRENOME02, A.; SOBRENOME01, A.; SOBRENOME03, A. T\'itulo do trabalho
-  completo. In:  \emph{Congresso Internacional}. Cidade, Estado, Pa\'is:
-  Editora, 1999. v.~1, p. 1--13.}
+\bibitem[Sobrenome02 et al. 1999]{AutorEtAl1999}
+\abntrefinfo{Sobrenome02 et al.}{SOBRENOME02 et al.}{1999}
+{SOBRENOME02, A. et al. T\'itulo do trabalho completo. In:  \emph{Congresso
+  Internacional}. Cidade, Estado, Pa\'is: Editora, 1999. v.~1, p. 1--13.}
 
 \bibitem[Sobrenome03 2002]{Autor2002}
 \abntrefinfo{Sobrenome03}{SOBRENOME03}{2002}
@@ -140,10 +134,17 @@ Cited by: 0; All Open Access, Gold Open Access.}
 \emph{IEEE Access}, v.~10, p. 59442 – 59485, 2022.
 Cited by: 401; All Open Access, Gold Open Access, Green Open Access.}
 
+\bibitem[Zhang e Moon 2021]{Zhang2021DirectInkWriting}
+\abntrefinfo{Zhang e Moon}{ZHANG; MOON}{2021}
+{ZHANG, H.; MOON, S.~K. Reviews on machine learning approaches for process
+  optimization in noncontact direct ink writing.
+\emph{ACS Applied Materials \& Interfaces}, American Chemical Society, v.~13,
+  n.~45, p. 53323--53345, 2021.}
+
 \bibitem[Zhou et al. 2024]{Zhou2024}
 \abntrefinfo{Zhou et al.}{ZHOU et al.}{2024}
-{ZHOU, S.; LI, Y.; WANG, Q.; LYU, Z. Integrated actuation and sensing: Toward
-  intelligent soft robots.
+{ZHOU, S. et al. Integrated actuation and sensing: Toward intelligent soft
+  robots.
 \emph{Cyborg and Bionic Systems}, v.~5, p.~0105, 2024.}
 
 \end{thebibliography}
