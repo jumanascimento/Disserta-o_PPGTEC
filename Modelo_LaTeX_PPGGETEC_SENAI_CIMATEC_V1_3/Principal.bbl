@@ -11,15 +11,16 @@
   composite on flexible and stretchable tpu substrate.
 \emph{Sensors and Actuators A: Physical}, v.~285, p. 159--170, 2018.}
 
-\bibitem[Chen et al. 2026]{Chen2026}
-\abntrefinfo{Chen et al.}{CHEN et al.}{2026}
+\bibitem[Chen, Chirarattananon \& Jayaram 2026]{Chen2026}
+\abntrefinfo{Chen, Chirarattananon \& Jayaram}{CHEN; CHIRARATTANANON;
+  JAYARAM}{2026}
 {CHEN, Y. et al. A call for a performance-driven approach for soft robotics
   research.
 \emph{npj Robotics}, v.~4, n.~1, 2026.
 Cited by: 0; All Open Access, Gold Open Access.}
 
-\bibitem[Cheng et al. 2022]{Cheng2022}
-\abntrefinfo{Cheng et al.}{CHENG et al.}{2022}
+\bibitem[Cheng, Zhang \& Dong 2022]{Cheng2022}
+\abntrefinfo{Cheng, Zhang \& Dong}{CHENG; ZHANG; DONG}{2022}
 {CHENG, X. et al. Soft conductive hydrogel-based electronic skin for robot
   finger grasping manipulation.
 \emph{Polymers}, v.~14, n.~19, p.~3930, 2022.}
@@ -35,8 +36,9 @@ Cited by: 0; All Open Access, Gold Open Access.}
 {KOIVIKKO, A. et al. Screen-printed curvature sensors for soft robots.
 \emph{IEEE Sensors Journal}, v.~18, n.~1, p. 223--230, 2018.}
 
-\bibitem[Laschi et al. 2016]{Laschi2016SoftRobotics}
-\abntrefinfo{Laschi et al.}{LASCHI et al.}{2016}
+\bibitem[Laschi, Mazzolai \& Cianchetti 2016]{Laschi2016SoftRobotics}
+\abntrefinfo{Laschi, Mazzolai \& Cianchetti}{LASCHI; MAZZOLAI;
+  CIANCHETTI}{2016}
 {LASCHI, C. et al. Soft robotics: Technologies and systems pushing the
   boundaries of robot abilities.
 \emph{Science Robotics}, American Association for the Advancement of Science
@@ -56,8 +58,9 @@ Cited by: 627.}
 \emph{Smart Materials and Structures}, v.~33, n.~11, 2024.
 Cited by: 10.}
 
-\bibitem[Lin et al. 2021]{Lin2021}
-\abntrefinfo{Lin et al.}{LIN et al.}{2021}
+\bibitem[Lin, Gamboa-Gonzalez \& Wehner 2021]{Lin2021}
+\abntrefinfo{Lin, Gamboa-Gonzalez \& Wehner}{LIN; GAMBOA-GONZALEZ;
+  WEHNER}{2021}
 {LIN, K.-Y. et al. Soft robotic sensing, proprioception via cable and
   microfluidic transmission.
 \emph{Electronics}, MDPI, v.~10, n.~24, p.~3166, 2021.}
@@ -79,8 +82,8 @@ Cited by: 47; All Open Access, Gold Open Access.}
 \emph{CHEMICAL ENGINEERING JOURNAL}, v.~504, JAN 15 2025.
 ISSN 1385-8947.}
 
-\bibitem[Rodrigue e Kim 2024]{rodrigue2024soft}
-\abntrefinfo{Rodrigue e Kim}{RODRIGUE; KIM}{2024}
+\bibitem[Rodrigue \& Kim 2024]{rodrigue2024soft}
+\abntrefinfo{Rodrigue \& Kim}{RODRIGUE; KIM}{2024}
 {RODRIGUE, H.; KIM, J. Soft actuators in surgical robotics: a state-of-the-art
   review.
 \emph{Intelligent Service Robotics}, v.~17, p. 3--17, 2024.}
@@ -97,13 +100,14 @@ Cited by: 0.}
 {SOBRENOME01, A. T\'itulo do artigo.
 \emph{Revista cient\'ifica}, v.~2, n.~13, p. 10--23, 1998.}
 
-\bibitem[Sobrenome01 e Sobrenome04 2005]{Autor2005}
-\abntrefinfo{Sobrenome01 e Sobrenome04}{SOBRENOME01; SOBRENOME04}{2005}
+\bibitem[Sobrenome01 \& Sobrenome04 2005]{Autor2005}
+\abntrefinfo{Sobrenome01 \& Sobrenome04}{SOBRENOME01; SOBRENOME04}{2005}
 {SOBRENOME01, A.; SOBRENOME04, A. \emph{T\'itulo do livro}. Cidade blá blá
   blá: Editora, 2005.}
 
-\bibitem[Sobrenome02 et al. 1999]{AutorEtAl1999}
-\abntrefinfo{Sobrenome02 et al.}{SOBRENOME02 et al.}{1999}
+\bibitem[Sobrenome02, Sobrenome01 \& Sobrenome03 1999]{AutorEtAl1999}
+\abntrefinfo{Sobrenome02, Sobrenome01 \& Sobrenome03}{SOBRENOME02; SOBRENOME01;
+  SOBRENOME03}{1999}
 {SOBRENOME02, A. et al. T\'itulo do trabalho completo. In:  \emph{Congresso
   Internacional}. Cidade, Estado, Pa\'is: Editora, 1999. v.~1, p. 1--13.}
 
@@ -134,8 +138,8 @@ Cited by: 0; All Open Access, Gold Open Access.}
 \emph{IEEE Access}, v.~10, p. 59442 – 59485, 2022.
 Cited by: 401; All Open Access, Gold Open Access, Green Open Access.}
 
-\bibitem[Zhang e Moon 2021]{Zhang2021DirectInkWriting}
-\abntrefinfo{Zhang e Moon}{ZHANG; MOON}{2021}
+\bibitem[Zhang \& Moon 2021]{Zhang2021DirectInkWriting}
+\abntrefinfo{Zhang \& Moon}{ZHANG; MOON}{2021}
 {ZHANG, H.; MOON, S.~K. Reviews on machine learning approaches for process
   optimization in noncontact direct ink writing.
 \emph{ACS Applied Materials \& Interfaces}, American Chemical Society, v.~13,

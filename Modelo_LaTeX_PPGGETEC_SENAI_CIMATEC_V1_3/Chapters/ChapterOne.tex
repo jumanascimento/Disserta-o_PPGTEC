@@ -3,67 +3,79 @@
 
 \section{Soft Robotics}
 
-\textit{Soft Robotcs} é uma área da robótica que utiliza materiais macios, deformáveis e estruturas com elevada complacência mecânica
-para construir robôs capazes de interagir de forma segura e adptável com o ambiente. Diferentemente dos robôs tradicionais, compostos 
-principalmente por juntas e elos rígidos, os robôs macios podem sofrer grandes deformações, adaptar sua forma aos objetos e aproveitar
-propriedades mecânicas do próprio corpo para executar tarefas complexas \cite{Laschi2016SoftRobotics}.
+\textit{Soft Robotics} é uma área da robótica que utiliza materiais macios, deformáveis e estruturas com elevada complacência mecânica para construir 
+robôs capazes de interagir de forma segura e adaptável com o ambiente. Diferentemente dos robôs tradicionais, compostos principalmente por juntas e 
+elos rígidos, os robôs macios podem sofrer grandes deformações, adaptar sua forma aos objetos e aproveitar propriedades mecânicas do próprio corpo para 
+executar tarefas complexas \cite{Laschi2016SoftRobotics}. Na figura \ref{figura:modos_flexao}, é possível observar diversos tipos de flexões possíveis em 
+\textit{Soft Robots}. Na figura (a), é apresentado um modelo de \textit{gripper} flexível, atuado por tubos pneumáticos, responsáveis pela flexão do 
+atuador. Na figura (b), é apresentado um modelo de músculo sintético baseado em \textit{Soft Robotics}, atuado por uma estrutura de câmaras retangulares 
+de vácuo, que simula a contração e a expansão de um músculo biológico. Na figura (c), é apresentado um modelo de \textit{Soft Robot} atuado por um sistema 
+de tendões inspirado no comportamento de um tentáculo de polvo, exemplificando os infinitos graus de liberdade alcançados por \textit{Soft Robots}. 
+Na figura (d), é apresentado outro modelo de \textit{Soft Robot} atuado por um sistema de tendões, demonstrando a versatilidade de tamanhos na área de 
+\textit{Soft Robotics}.
+
 
 %Adcionar as explicações de A,B,C,D
 \begin{figure}[ht]
 \begin{center}
 \caption{Modelos de complacência mecânica e deformação estrutural em Soft Robots.} \label{figura:modos_flexao}
 \includegraphics[scale=.5]{modos_flexao.png}\\
-Fonte: Elaborado pelo autor
+Fonte: Charbel Tawk, François Schmitt e Yoeko Xavier Mak. 
 \end{center}
 \end{figure}
 
-Embora o conceito de \textit{Soft Robotics} tenha ganhado notoriedade somente na década de 2000, suas origens remontam a 1980 e 1990, 
-quando surgiram os primeiros manipuladores inflaveis e microatuadores fléxiveis. Contudo, eses sistemas ainda não eram classificados 
-formalmente como robôs macios, mas já exploravam princípios de deformabilidade e comformabilidade que mais tarde se tornariam
-fundamentais para a área \cite{Laschi2016SoftRobotics}. Dessa forma, impulsionada pela biomimética e pelo estudo de organismos de corpo mole,
-como animais invertebrados, esses organismos mostraram que estruturas deformáveis eram capazes de realizar movimentos complexos e se
-adaptar eficientemente ao ambiente, inspirando novas arquiteturas robóticas baseadas em materiais flexíveis e complacentes. Um dos primeiros 
-marcos da área foi o desenvolvimento do \textit{OctArm}, manipulador robótico inspirado nos tentáculos dos polvos, capaz de realizar 
-grandes deformações sem a utilização de juntas rígidas \cite{Grissom2006OctArm}. Assim, entre 2009 e 2012, a Soft Robotics consolidou-se como 
+Embora o conceito de \textit{Soft Robotics} tenha ganhado notoriedade somente na década de 2000, suas origens remontam aos anos 1980 e 1990, 
+quando surgiram os primeiros manipuladores infláveis e microatuadores flexíveis. Contudo, esses sistemas ainda não eram classificados formalmente 
+como robôs macios, mas já exploravam princípios de deformabilidade e conformabilidade que, mais tarde, se tornariam fundamentais para a área \cite{Laschi2016SoftRobotics}. 
+Impulsionada pela biomimética e pelo estudo de organismos de corpo mole, como animais invertebrados, a área passou a investigar estruturas deformáveis 
+capazes de realizar movimentos complexos e se adaptar de forma eficiente ao ambiente, inspirando novas arquiteturas robóticas baseadas em materiais 
+flexíveis e complacentes.
+Um dos primeiros marcos da área foi o desenvolvimento do \textit{OctArm}, manipulador robótico inspirado nos tentáculos dos polvos, capaz de realizar 
+grandes deformações sem a utilização de juntas rígidas \cite{Grissom2006OctArm}. Assim, entre 2009 e 2012, a \textit{Soft Robotics} consolidou-se como 
 campo de pesquisa independente, com avanços significativos em atuação, sensoriamento, modelagem e controle de estruturas contínuas. Nesse período, 
 também surgiram novas tecnologias de fabricação e atuadores baseados em ligas com memória de forma, músculos artificiais pneumáticos e polímeros 
 eletroativos \cite{Laschi2016SoftRobotics}. Em 2011, a introdução da tecnologia \textit{Pneu-Net}, baseada em câmaras pneumáticas moldadas em elastômeros, 
 representou um importante avanço para a área, permitindo a construção de robôs quase totalmente macios. Nos anos seguintes, foram desenvolvidas soluções 
-para rigidez variável, preensão adaptativa, locomoção inspirada em organismos vivos, robôs capazes de crescer, mudar de forma e realizar autorreparo. 
-Como resultado, a Soft Robotics tornou-se uma das áreas mais promissoras da robótica moderna, reunindo conhecimentos de engenharia, ciência dos materiais, 
-biologia e medicina para o desenvolvimento de sistemas cada vez mais adaptáveis e bioinspirados \cite{Laschi2016SoftRobotics}.
+para rigidez variável, preensão adaptativa, locomoção inspirada em organismos vivos, robôs capazes de crescer, mudar de forma e realizar autorreparo.
+Como resultado, a \textit{Soft Robotics} tornou-se uma das áreas mais promissoras da robótica moderna, reunindo conhecimentos de engenharia, ciência dos 
+materiais, biologia e medicina para o desenvolvimento de sistemas cada vez mais adaptáveis e bioinspirados \cite{Laschi2016SoftRobotics}.
+
+Na figura \ref{figura:biomimetica_soft} é apresentado um modelo biomimético de \textit{Soft Robotics} baseado no comportamento de um tentáculo de polvo, 
+demonstrando a capacidade de flexão e deformação contínua do manipulador. O modelo é composto por uma estrutura flexível, atuada por um sistema de tendões
+que permite a movimentação em múltiplas direções, simulando a versatilidade e adaptabilidade observadas em organismos biológicos.
 
 %Adcionar as explicações de A,B,C
 \begin{figure}[ht]
 \begin{center}
-\caption{Modelo biomimetico de Soft Robotics baseado no comportamento de um tentaculo de Polvo.} \label{figura:biomimetica_soft}
+\caption{Modelo biomimético de Soft Robotics baseado no comportamento de um tentáculo de polvo.} \label{figura:biomimetica_soft}
 \includegraphics[scale=.7]{biomimetica_soft.png}\\
-Fonte: Elaborado pelo autor
+Fonte: Keung Or e Dominic M. Sivitilli.
 \end{center}
 \end{figure}
 
-Sendo assim, a area de robótica mole traz vantagens quando comparada com a robótica rígida convencional, destacando-se à flexibilidade e adaptabilidade, 
-robôs flexíveis podem se deformar para operar por espaços apertados, manipular objetos irregulares ou frágeis e adptar-se a ambientes não estruturados
-superando robôs rígidos em tarefas que exigem adaptabilidade geométrica. Outra vantagem é a segurança em interação robô-humano, a natureza flexível dos 
-robôs moles torna-os inerentemente mais seguros para a interação direta com humanos, reduzindo o risco de lesões e viabilizando aplicações como reabilitação 
-médica, dispositivos vestíveis e robótica colaborativa. Ainda no âmbito das vantagens distaca-se a navegabilidade em ambientes complexos, sua capacidade 
-de se deformar e se adaptar permite que robôs flexíveis operem em ambientes inacessíveis a robôs rígidos, como zonas de desastre, tubulações e o corpo 
-humano \cite{Wang2026,Shen2026}.
+Nesse contexto, a área de robótica mole apresenta vantagens em relação à robótica rígida convencional, destacando-se a flexibilidade e a adaptabilidade. 
+Robôs flexíveis podem se deformar para operar em espaços apertados, manipular objetos irregulares ou frágeis e adaptar-se a ambientes não estruturados, 
+superando robôs rígidos em tarefas que exigem adaptabilidade geométrica. Outra vantagem é a segurança na interação robô-humano: a natureza flexível dos 
+robôs macios torna-os inerentemente mais seguros para a interação direta com humanos, reduzindo o risco de lesões e viabilizando aplicações como 
+reabilitação médica, dispositivos vestíveis e robótica colaborativa. Ainda no âmbito das vantagens, destaca-se a navegabilidade em ambientes complexos, 
+uma vez que a capacidade de se deformar e se adaptar permite que robôs flexíveis operem em ambientes inacessíveis a robôs rígidos, como zonas de desastre, 
+tubulações e o corpo humano \cite{Wang2026} \cite{Shen2026}.
 
-Contudo, assim como toda tecnologia emergente, os \textit{Soft Robots} apresentam algumas desvantagens, como baixa velocidade, precisão e força,
-robôs flexíveis geralmente apresentam desempenho inferior em tarefas que exigem alta velocidade, precisão ou força, o que limita sua utilização na 
-automação industrial e na manufatura de alta precisão. Alem de enfrentar complexidade para controle, o comportamento não linear e histerético de materiais 
-moles complica a modelagem e o controle em tempo real, exigindo técnicas avançadas de aprendizado de máquina e otimização. A difuculdade de integração sensorial
-é outra desvantagem que os \textit{Soft Robots} tem em relação aos robôs rigidos, incorporar sensores em corpos macios e deformáveis ​​é um desafio técnico que, 
-frequentemente, exige abordagens inovadoras para manter o desempenho e a confiabilidade \cite{Wang2026,Chen2026,Lee20173}.
+Contudo, assim como toda tecnologia emergente, os \textit{Soft Robots} apresentam algumas desvantagens, como baixa velocidade/precisão e aplicação de 
+força reduzida. Robôs flexíveis geralmente apresentam desempenho inferior em tarefas que exigem alta velocidade, precisão ou força, o que limita sua 
+utilização na automação industrial e na manufatura de alta precisão. Além disso, enfrentam complexidade para o controle: o comportamento não linear e 
+histerético de materiais moles complica a modelagem e o controle em tempo real, exigindo técnicas avançadas de aprendizado de máquina e otimização. 
+A dificuldade de integração sensorial é outra desvantagem em relação aos robôs rígidos: incorporar sensores em corpos macios e deformáveis é um desafio 
+técnico que frequentemente exige abordagens inovadoras para manter o desempenho e a confiabilidade \cite{Wang2026} \cite{Chen2026} \cite{Lee20173}.
 
-Devido a maleabilidade e infinitos graus de liberdade os \textit{Soft Robots} tem sido aplicados em diversas áreas, como saúde, ambientes industriais, exploração e resgate.
-Robôs flexíveis são empregados para realizar preensões seguras e adaptáveis ​​na manufatura, manuseando objetos delicados ou irregulares com risco mínimo de danos, atuadores 
-pneumáticos e estruturas biônicas possibilitam uma manipulação versátil na automação industrial, superando as limitações de garras rígidas \cite{Liu2023,Xavier202259442}.
-Robôs de corpo flexível são utilizados em operações de busca e salvamento e na exploração de ambientes de risco, aproveitando sua adaptabilidade e resiliência, Estratégias 
-de locomoção multimodal (por exemplo, rastejar, nadar) permitem a navegação por terrenos diversos \cite{Liu2023,Li2024}. A saúde se monstra como uma das grandes áreas de 
-aplicabilidade dos robôs flexíveis, os robôs cirúrgicos flexíveis apresentam elevado potencial para aplicações médicas por serem capazes de navegar em 
-estruturas anatômicas complexas e realizar procedimentos minimamente invasivos com maior adaptabilidade e menor risco de danos aos tecidos,  \cite{rodrigue2024soft}
+Devido à maleabilidade e aos infinitos graus de liberdade, os \textit{Soft Robots} têm sido aplicados em diversas áreas, como saúde, ambientes industriais, 
+exploração e resgate. Robôs flexíveis são empregados para realizar preensões seguras e adaptáveis na manufatura, manuseando objetos delicados ou irregulares 
+com risco mínimo de danos. Atuadores pneumáticos e estruturas biomiméticas possibilitam uma manipulação versátil na automação industrial, superando as 
+limitações de garras rígidas \cite{Liu2023} \cite{Xavier202259442}. Robôs de corpo flexível são utilizados em operações de busca e salvamento e na exploração 
+de ambientes de risco, aproveitando sua adaptabilidade e resiliência. Estratégias de locomoção multimodal, como rastejar e nadar, permitem a navegação 
+por terrenos diversos \cite{Liu2023} \cite{Li2024}. A saúde mostra-se como uma das grandes áreas de aplicabilidade dos robôs flexíveis, uma vez que robôs 
+cirúrgicos flexíveis apresentam elevado potencial para aplicações médicas, sendo capazes de navegar em estruturas anatômicas complexas e realizar 
+procedimentos minimamente invasivos com maior adaptabilidade e menor risco de danos aos tecidos \cite{rodrigue2024soft}.
 
 %Dentro do cenário dos \textit{Soft Robots}, apesar de existirem diversas aplicações e enumeras vantagens existem também diafios 
 %significativos ligados ao monitoramento dos estados mecânicos durante a operação. Diferentimente dos robôs convencionais, cujos 
@@ -72,9 +84,9 @@ estruturas anatômicas complexas e realizar procedimentos minimamente invasivos 
 %mais complexa e disafiadora. Dessa forma, o desenvolvimento de técnicas de sensoriamento se tornou um dos principais desafios da área \cite{Lin2021}.
 
 
-Dessa maneira, diversas tecnologias de sensoriamento vem sido investigadas para aplicações em \textit{Soft Robots}, incluindo sensores piezoresistivos, 
-piezocapacitivos, piezoelétricos, ópticos e magnéticos. Cada abordagem apresenta vantagnes e limitações relacionadas a flexibilidade, sensibilidade, 
-custo de fabricação, integração aos atuadores deformavéis e etc \cite{Zhou2024}.
+Dessa maneira, diversas tecnologias de sensoriamento têm sido investigadas para aplicações em \textit{Soft Robots}, incluindo sensores piezoresistivos, 
+piezocapacitivos, piezoelétricos convencionais, ópticos e magnéticos. Cada abordagem apresenta vantagens e limitações relacionadas à flexibilidade, sensibilidade, 
+custo de fabricação, integração aos atuadores deformáveis e outros aspectos \cite{Zhou2024}.
 
 %Em \citeonline{Cruz2024} é apontada a crescente demanda por serviços da área de saúde, associado ao envelhecimento populacional e à
 %necessidade de procedimentos cada vez mais precisos, impulsionando a adoção de novas tecnologias no ambiente hospitalar. Nesse contexto, 
@@ -147,18 +159,20 @@ custo de fabricação, integração aos atuadores deformavéis e etc \cite{Zhou2
 \label{section:definicaoproblema}
 
 
-Conforme discutido anteriormente, sistemas robóticos baseados em \textit{Soft Robotics} apresentam elevada capacidade de deformação,
-adptação geométrica e interação segura com ambientes e estruturas delicadas. Entretanto, a elevada flexibilidade desses sistemas também
-impõe desafios significativos relacionados ao monitoramento de sua configuração mecânica e à determinação precisa de sua interação com o ambiente.
-Diferentemente dos robôs rígidos convencionais, cujos movimentos podem ser descritos a partir de um conjunto limitado de juntas e sensores, 
-os manipuladores flexíveis possuem deformações contínuas distribuídas ao longo de toda a estrutura, exigindo soluções de sensoriamento capazes 
-de fornecer informações em tempo real sobre posição, curvatura, deformação e forças de contato \cite{Lin2021,Zhou2024}.
+Conforme discutido anteriormente, sistemas robóticos baseados em \textit{Soft Robotics} apresentam elevada capacidade de deformação, adaptação geométrica 
+e interação segura com ambientes e estruturas delicadas. Entretanto, a elevada flexibilidade desses sistemas também impõe desafios significativos 
+relacionados ao monitoramento de sua configuração mecânica e à determinação precisa de sua interação com o ambiente. Diferentemente dos robôs rígidos 
+convencionais, cujos movimentos podem ser descritos a partir de um conjunto limitado de juntas e sensores, os manipuladores flexíveis possuem deformações 
+contínuas distribuídas ao longo de toda a estrutura, exigindo soluções de sensoriamento capazes de fornecer informações em tempo real sobre posição, 
+curvatura, deformação e forças de contato \cite{Lin2021} \cite{Zhou2024}. A figura \ref{figura:Comparacao_manipuladores} apresenta uma comparação entre 
+um robô rígido convencional e um manipulador flexível baseado em \textit{Soft Robotics}, onde é possível observar a diferença na complexidade de movimento 
+e controle entre os dois sistemas.
 
 \begin{figure}[ht]
 \begin{center}
-\caption{Comparação entre Robô Rígido e \textit{Soft Robots}.} \label{figura:nome1}
+\caption{Comparação entre Robô Rígido e \textit{Soft Robots}.} \label{figura:Comparacao_manipuladores}
 \includegraphics[scale=.3]{Comparacao_manipuladores.png}\\
-Fonte: Elaborado pelo autor
+Fonte: MG Automações Industriais e Keung Or.
 \end{center}
 \end{figure}
 
@@ -183,7 +197,7 @@ dos robôs moles \cite{WOS:001403456400001}.
 
 Diversas abordagens de sensoriamento flexível têm sido propostas na literatura utilizando materiais poliméricos, hidrogéis condutores, nanomateriais
 à base de carbono e compósitos metálicos. Apesar dos avanços observados, muitos dispositivos ainda apresentam limitações relacionadas
-à histerese, derivada temporal, fadiga mecânica, direcionalidade de medição e degradação de desempenho após sucessivos ciclos de deformação \cite{Cheng2022,Koivikko2018,Ali2018}.
+à histerese, derivada temporal, fadiga mecânica, direcionalidade de medição e degradação de desempenho após sucessivos ciclos de deformação \cite{Cheng2022} \cite{Koivikko2018} \cite{Ali2018}.
 Além disso, a integração desses sensores em substratos elastoméricos continua sendo um desafio tecnológico relevante devido aos problemas de adesão, 
 estabilidade elétrica e durabilidade mecânica dos filmes condutores submetidos a deformações repetidas.
 Nesse contexto, sensores piezocapacitivos anisotrópicos têm recebido crescente atenção por sua capacidade de distinguir e desacoplar estímulos mecânicos 
@@ -208,7 +222,7 @@ rotas de fabricação baseda em deposição \textit{Thick Filme} capazes de viab
 flexíveis.
 
 Assim, o problema de pesquisa desta dissertação consiste em determinar se a tecnologia de deposição Thick Film aplicada à fabricação de sensores 
-piezoresistivos em filmes metálicos sobre substratos elastoméricos é capaz de produzir dispositivos com desempenho eletromecânico, durabilidade e 
+piezocapacitivos em filmes metálicos sobre substratos elastoméricos é capaz de produzir dispositivos com desempenho eletromecânico, durabilidade e 
 flexibilidade compatíveis com aplicações em sistemas robóticos baseados em Soft Robotics.
 
 
@@ -241,25 +255,18 @@ flexibilidade compatíveis com aplicações em sistemas robóticos baseados em S
 \section{Objetivo}
 \label{section:objetivo}
 
-O ojetivo geral do presente trabalho visa o desenvolvimento de um sistema de monitoramento de
-posição/movimentação para um manipulador \textit{Soft Robots}
+O objetivo geral do presente trabalho é desenvolver um sistema de monitoramento de posição e movimentação para um manipulador \textit{Soft Robotics}.
 
 \subsection{Objetivos Específicos}
 
 \begin{enumerate}
-  \item Desenvolver uma rota de fabricação por direct write de sensores piezocapacitivos flexíveis em filme condutivo de prata sobre TPU, 
-  caracterizando seu desempenho eletromecânico e validando sua aplicabilidade em um protótipo de soft robotics.​
-  \item Otimizar o tratamento de superfície do TPU (UV-ozônio — variando tempo/intensidade) para aumento de adesão da tinta de prata, com 
-  metodologia análoga à que você já vem aplicando em poliimida (ângulo de contato, Owens-Wendt, FTIR-ATR).
-  \item Otimizar parâmetros de impressão no Voltera Nova (velocidade, altura do bico, número de passes, viscosidade da tinta) para filmes 
-  de prata com espessura e continuidade controladas sobre substrato elastomérico.
-  \item Caracterizar morfologicamente os filmes (perfilometria, microscopia óptica/SEM, possivelmente AFM) antes e após ciclos de deformação.
-  \item Caracterizar eletromecanicamente os sensores: gauge factor (adcionar formula de Gf corretamente por 
-  (drift) e estabilidade sob ciclagem (centenas a milhares de ciclos)).
+  \item Desenvolver uma rota de fabricação por \textit{direct write} de sensores piezocapacitivos flexíveis em filme condutivo de prata sobre TPU, caracterizando seu desempenho eletromecânico e validando sua aplicabilidade em um protótipo de \textit{soft robotics}.
+  \item Otimizar o tratamento de superfície do TPU (UV-ozônio — variando tempo e intensidade) para aumentar a adesão da tinta de prata, com metodologia análoga à já aplicada em poliimida (ângulo de contato, Owens-Wendt e FTIR-ATR).
+  \item Otimizar parâmetros de impressão no Voltera Nova (velocidade, altura do bico, número de passes e viscosidade da tinta) para filmes de prata com espessura e continuidade controladas sobre substrato elastomérico.
+  \item Caracterizar morfologicamente os filmes (perfilometria, microscopia óptica/SEM e, possivelmente, AFM) antes e após ciclos de deformação.
+  \item Caracterizar eletromecanicamente os sensores, incluindo gauge factor, drift e estabilidade sob ciclagem (centenas a milhares de ciclos).
   \item Avaliar estratégias de encapsulamento (camada protetora) para mitigar oxidação da prata e delaminação sob deformação cíclica.
-  \item Integrar e validar o sensor em um protótipo demonstrativo de soft robotics (ex.: Dedo de garra pneumática ou atuador 
-  flexionável instrumentado), avaliando a correlação entre sinal elétrico e ângulo/posição.
-
+  \item Integrar e validar o sensor em um protótipo demonstrativo de \textit{soft robotics} (por exemplo, dedo de garra pneumática ou atuador flexionável instrumentado), avaliando a correlação entre sinal elétrico e ângulo/posição.
 \end{enumerate}
 
 
