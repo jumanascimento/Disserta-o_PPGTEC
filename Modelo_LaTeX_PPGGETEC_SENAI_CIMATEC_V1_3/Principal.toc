@@ -3,8 +3,8 @@
 \contentsline {chapter}{\numberline {1}Introdu\c {c}\~ao}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Soft Robotics}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Defini\c {c}\~ao do problema}{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Sensores Flexíveis}{4}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Objetivo}{5}{section.1.4}%
+\contentsline {section}{\numberline {1.3}Sensores Flexíveis}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Objetivo}{6}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Objetivos Específicos}{6}{subsection.1.4.1}%
 \contentsline {chapter}{\numberline {2}Revis\~ao da Literatura}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}T\'itulo da primeira se\c {c}\~ao}{7}{section.2.1}%

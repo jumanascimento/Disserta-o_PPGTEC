@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.13)  22 SEP 2026 09:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.13)  22 SEP 2026 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1247,27 +1247,30 @@ Package pdftex.def Info: Figures/Comparacao_manipuladores.png  used on input li
 ne 174.
 (pdftex.def)             Requested size: 245.17786pt x 86.72466pt.
 
-Overfull \hbox (3.71483pt too wide) in paragraph at lines 198--209
-\OT1/ptm/m/n/12 ri-ais po-lim[]ericos, hi-drog[]eis con-du-to-res, na-no-ma-te-
-ri-ais []a base de car-bono e comp[]ositos met[]alicos.
- []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.209 
-       [4
+l.203 O
+        presente trabalho concentra-se na investigação de sensores piezoca...
+[4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.209 
-       <./Figures/Comparacao_manipuladores.png>]
-Overfull \hbox (5.92296pt too wide) in paragraph at lines 224--227
-\OT1/ptm/m/n/12 so-bre subs-tra-tos elas-tom[]ericos []e ca-paz de pro-du-zir d
-is-po-si-ti-vos com de-sem-pe-nho ele-tro-mec[]anico,
+l.203 O
+        presente trabalho concentra-se na investigação de sensores piezoca...
+ <./Figures/Comparacao_manipuladores.png>]
+Overfull \hbox (16.95181pt too wide) in paragraph at lines 203--207
+\OT1/ptm/m/n/12 solu[][]ao para o sen-so-ri-a-mento em \OT1/ptm/m/it/12 Soft Ro
+-bo-tics\OT1/ptm/m/n/12 , ex-plo-rando sua ca-pa-ci-dade de for-ne-cer informa[
+][]oes
+ []
+
+
+Overfull \hbox (3.71483pt too wide) in paragraph at lines 215--226
+\OT1/ptm/m/n/12 ri-ais po-lim[]ericos, hi-drog[]eis con-du-to-res, na-no-ma-te-
+ri-ais []a base de car-bono e comp[]ositos met[]alicos.
  []
 
 
@@ -1275,9 +1278,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.264   \item O
-               timizar o tratamento de superfície do TPU (UV-ozônio — va...
-[5]) [6]
+l.234 
+       [5]
+Overfull \hbox (5.92296pt too wide) in paragraph at lines 241--244
+\OT1/ptm/m/n/12 so-bre subs-tra-tos elas-tom[]ericos []e ca-paz de pro-du-zir d
+is-po-si-ti-vos com de-sem-pe-nho ele-tro-mec[]anico,
+ []
+
+) [6]
 \openout2 = `Chapters/ChapterTwo.aux'.
 
  (Chapters/ChapterTwo.tex
@@ -1409,10 +1417,19 @@ Cap\'{\i }tulo 5.
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Principal.out' has not changed.
 (rerunfilecheck)             Checksum: ED7FB977A915B4A855949F7549FCA5DD;5772.
-Package rerunfilecheck Info: File `Principal.brf' has not changed.
-(rerunfilecheck)             Checksum: 7A8FD4B62BB0D55EDF6E8D6CDED66CBA;1566.
+
+Package rerunfilecheck Warning: File `Principal.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `Principal.brf':
+(rerunfilecheck)             Before: 7A8FD4B62BB0D55EDF6E8D6CDED66CBA;1566
+(rerunfilecheck)             After:  6CC9D8EDC68D1E5B73975EE3DF2D256C;1695.
  )
 (\end occurred when \iftrue on line 226 was incomplete) 
 Here is how much of TeX's memory you used:
@@ -1431,9 +1448,9 @@ lic/amsfonts/cm/cmmi12.pfb><C:/Users/julia.ribeiro/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julia.ribeiro/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julia.ribeiro/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Principal.pdf (30 pages, 1933517 bytes).
+Output written on Principal.pdf (30 pages, 1937065 bytes).
 PDF statistics:
- 506 PDF objects out of 1000 (max. 8388607)
+ 513 PDF objects out of 1000 (max. 8388607)
  100 named destinations out of 1000 (max. 500000)
  301 words of extra memory for PDF output out of 10000 (max. 10000000)
 
